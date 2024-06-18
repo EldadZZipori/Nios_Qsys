@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/LFSR/simulation/qsim
+vLFSR
+Z1 !s110 1718735217
+!i10b 1
+!s100 `nHUE7g8WeFS3lTHdE?K02
+ImhTnggYC`0l16_Hh1U9cl1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1718735217
+8LFSR.vo
+FLFSR.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1718735217.000000
+!s107 LFSR.vo|
+!s90 -work|work|LFSR.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@l@f@s@r
+vLFSR_vlg_vec_tst
+R1
+!i10b 1
+!s100 RYj4=D[[R@fl^dPID;`iA2
+I?ZMKb_ab8S]?S]o>0A=MU1
+R2
+R0
+w1718735216
+8LFSR_simulation.vwf.vt
+FLFSR_simulation.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 LFSR_simulation.vwf.vt|
+!s90 -work|work|LFSR_simulation.vwf.vt|
+!i113 1
+R5
+R6
+n@l@f@s@r_vlg_vec_tst
