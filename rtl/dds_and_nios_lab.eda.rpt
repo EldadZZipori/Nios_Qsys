@@ -1,0 +1,83 @@
+EDA Netlist Writer report for dds_and_nios_lab
+Tue Jun 18 11:08:04 2024
+Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Tue Jun 18 11:08:04 2024 ;
+; Revision Name             ; dds_and_nios_lab                  ;
+; Top-level Entity Name     ; dds_and_nios_lab                  ;
+; Family                    ; Cyclone V                         ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 16.1.2 Build 203 01/18/2017 SJ Lite Edition
+    Info: Copyright (C) 2017  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Intel and sold by Intel or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Tue Jun 18 11:08:02 2024
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/qsim/ dds_and_nios_lab -c dds_and_nios_lab
+Info (119006): Selected device 5CSEMA5F31C6 for design "dds_and_nios_lab"
+Warning: RST port on the PLL is not properly connected on instance DE1_SoC_QSYS:U0|DE1_SoC_QSYS_pll:pll|altera_pll:altera_pll_i|general[1].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
+    Info: Must be connected
+Warning (21300): LOCKED port on the PLL is not properly connected on instance "DE1_SoC_QSYS:U0|DE1_SoC_QSYS_pll:pll|altera_pll:altera_pll_i|general[0].gpll". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready.
+Warning: RST port on the PLL is not properly connected on instance DE1_SoC_QSYS:U0|DE1_SoC_QSYS_vga:vga|DE1_SoC_QSYS_vga_vga_clk:vga_clk|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga_lite/16.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
+    Info: Must be connected
+Warning (21300): LOCKED port on the PLL is not properly connected on instance "DE1_SoC_QSYS:U0|DE1_SoC_QSYS_vga:vga|DE1_SoC_QSYS_vga_vga_clk:vga_clk|altera_pll:altera_pll_i|general[0].gpll". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready.
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Error (204012): Can't generate netlist output files because the file "C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v" is an OpenCore Plus time-limited file. Remove the unlicensed cores or obtain a license for those OpenCore Plus time-limited IP cores used in the design. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number.
+Error (204009): Can't generate netlist output files because the license for encrypted file "C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v" is not available
+Error: Quartus Prime EDA Netlist Writer was unsuccessful. 2 errors, 5 warnings
+    Error: Peak virtual memory: 4791 megabytes
+    Error: Processing ended: Tue Jun 18 11:08:04 2024
+    Error: Elapsed time: 00:00:02
+    Error: Total CPU time (on all processors): 00:00:02
+
+
