@@ -1,0 +1,28 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /dds_tb/DDS_RATIO
+add wave -noupdate /dds_tb/CLOCK_50_tb
+add wave -noupdate /dds_tb/reset_tb
+add wave -noupdate /dds_tb/enable_inc_tb
+add wave -noupdate -format Analog-Step -height 74 -max 1948.0 -min -1948.0 -radix decimal -childformat {{{/dds_tb/sin_wave_tb[11]} -radix decimal} {{/dds_tb/sin_wave_tb[10]} -radix decimal} {{/dds_tb/sin_wave_tb[9]} -radix decimal} {{/dds_tb/sin_wave_tb[8]} -radix decimal} {{/dds_tb/sin_wave_tb[7]} -radix decimal} {{/dds_tb/sin_wave_tb[6]} -radix decimal} {{/dds_tb/sin_wave_tb[5]} -radix decimal} {{/dds_tb/sin_wave_tb[4]} -radix decimal} {{/dds_tb/sin_wave_tb[3]} -radix decimal} {{/dds_tb/sin_wave_tb[2]} -radix decimal} {{/dds_tb/sin_wave_tb[1]} -radix decimal} {{/dds_tb/sin_wave_tb[0]} -radix decimal}} -subitemconfig {{/dds_tb/sin_wave_tb[11]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[10]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[9]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[8]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[7]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[6]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[5]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[4]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[3]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[2]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[1]} {-height 15 -radix decimal} {/dds_tb/sin_wave_tb[0]} {-height 15 -radix decimal}} /dds_tb/sin_wave_tb
+add wave -noupdate -format Analog-Step -height 74 -max 2047.0 -min -2047.0 -radix decimal /dds_tb/cos_wave_tb
+add wave -noupdate -format Analog-Step -height 74 -max 2046.9999999999995 -min -2048.0 -radix decimal /dds_tb/squ_wave_tb
+add wave -noupdate -format Analog-Step -height 74 -max 1638.0 -min -2048.0 -radix decimal /dds_tb/saw_wave_tb
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {9821 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 1
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 100
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {0 ps} {464 ps}

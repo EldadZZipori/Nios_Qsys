@@ -1,0 +1,27 @@
+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dds_tb
+
+Top level modules:
+	dds_tb
+
+} {} {}} C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sincos_lut.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sincos_lut.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sincos_lut
+-- Compiling architecture rtl of sincos_lut
+
+} {} {}} C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/waveform_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/waveform_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity waveform_gen
+-- Compiling architecture rtl of waveform_gen
+
+} {} {}}

@@ -29,7 +29,7 @@ module LFSR
 			current_value <= {B{1'b1}};
 		end
 		else begin
-			current_value <= {current_value[0] ^ current_value[2], current_value[(B-2):0]};
+			current_value <= {current_value[0] ^ current_value[2], current_value[(B-1)], current_value[(B-2):1]};
 		end
 	end
 
