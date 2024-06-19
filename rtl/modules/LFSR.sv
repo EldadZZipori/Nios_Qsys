@@ -9,7 +9,7 @@
 */
 
 module LFSR
-# (parameter BITS = 5)
+# (parameter B = 5)
 (
 	input 	logic 					clk,
 	input		logic						reset,
@@ -17,7 +17,7 @@ module LFSR
 	output	logic[(B-1):0]		current_value			// one word of BITS size 
 	
 );
-	localparam B = (BITS < 4) ? 4 : BITS;				// if amount of bits is smaller then 4 force the size to 4
+	//localparam B = (BITS < 4) ? 4 : BITS;				// if amount of bits is smaller then 4 force the size to 4
 
 	
 	

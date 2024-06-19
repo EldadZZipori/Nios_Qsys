@@ -1,0 +1,15 @@
+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LFSR_tb
+
+Top level modules:
+	LFSR_tb
+
+} {} {}} C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv {1 {vlog -work work -sv -stats=none C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}}

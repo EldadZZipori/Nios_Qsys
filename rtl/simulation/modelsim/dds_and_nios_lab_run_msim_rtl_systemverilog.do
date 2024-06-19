@@ -13,7 +13,6 @@ vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qs
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/hack_ltm_sincronization.v}
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/PS2_ScanCodeReader.v}
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Keyboard_Controller.v}
-vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/generate_arbitrary_divided_clk32.v}
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/doublesync_no_reset.v}
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/ScanCodeToEvent.v}
 vlib DE1_SoC_QSYS
@@ -57,6 +56,7 @@ vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v}
 vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv}
+vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv}
@@ -96,6 +96,7 @@ vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv}
 vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv}
+vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv}
 vcom -93 -work work {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/waveform_gen.vhd}
 vcom -93 -work work {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sincos_lut.vhd}
 vcom -93 -work DE1_SoC_QSYS {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_package.vhd}

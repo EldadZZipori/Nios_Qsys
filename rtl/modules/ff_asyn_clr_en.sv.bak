@@ -1,0 +1,16 @@
+module ff_asyn_clr_en(
+	input CLK,
+	input CLR,
+	input D,
+	input E,
+	output Q);
+	
+		always @(posedge CLK, posedge CLR) begin
+			if (CLR) begin
+				Q <= 1'b0;
+			end
+			else if (CLK & E) begin
+				Q <= D;
+			end
+		end
+endmodule

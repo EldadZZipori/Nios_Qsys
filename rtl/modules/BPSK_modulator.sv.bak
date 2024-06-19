@@ -1,0 +1,6 @@
+module BPSK_modulator(
+
+);
+
+
+endmodule

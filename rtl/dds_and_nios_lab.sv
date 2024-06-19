@@ -319,8 +319,13 @@ DE1_SoC_QSYS U0(
 	   .audio_sel_export                              (audio_selector),                               //                       audio_sel.export
 	   
        .vga_vga_clk_clk                               (video_clk_40Mhz),                               //                     vga_vga_clk.clk
-       .clk_25_out_clk                                (CLK_25MHZ)                                 //                      clk_25_out.clk
+       .clk_25_out_clk                                (CLK_25MHZ),                                //                      clk_25_out.clk
        
+		 
+		 /* ADDED QSYS*/
+		 .lfsr_clk_interrupt_gen_external_connection_export(Clock_1Hz),
+		 .lfsr_val_external_connection_export	 				(lfsr_counter),
+		 .dds_increment_external_connection_export			(dds_increment)
 	);
 	
  
@@ -330,22 +335,17 @@ DE1_SoC_QSYS U0(
 //
 ////////////////////////////////////////////////////////////////////		   
 
-	
-(* keep = 1, preserve = 1 *) logic [11:0] actual_selected_modulation;
-(* keep = 1, preserve = 1 *) logic [11:0] actual_selected_signal;
-
-
-
 /*
-	Part 1 -
+	Part 1 
 	Creating a 5 BIT LFSR with a 1Hz Clock
 */
 localparam CLOCK_50MHz_TO_1HZ_RATIO 	=	50000000 >> 1'b1;
 
 logic[4:0] 	lfsr_counter;
+logic 		modulator;
 logic 		Clock_1Hz;
 
-LFSR # (.BITS(5))
+LFSR # (.B(5))
 LFSR_inst
 (
 	.clk				(Clock_1Hz),
@@ -364,7 +364,7 @@ Clock_1Hz_gen
 
 
 /*
-	Part 2 -
+	Part 2 
 	Instatntiating the DDS
 */
 localparam DDS_3Hz_increment = 258;	// (3 * 2^32)/(50 * 10^6) + 0.5 ≈ 258
@@ -380,7 +380,7 @@ waveform_gen dds
 	.clk			(CLOCK_50),
 	.reset		(1'b1),					// Inverted reset - resets when LOW
 	
-	.en			(),						// Enable (HIGH) the phase_inc signal to increase the phase accumulator
+	.en			(1'b1),					// Enable (HIGH) the phase_inc signal to increase the phase accumulator
 	.phase_inc	(DDS_3Hz_increment),	// unsigned 32bit phase increment to be accumulated. This phase is quantized to 12-bit 
 												// that is passed to a lookup table whch converts the phase to a waveform
 												// inc = (f_out * 2^32)/f_in + 0.5 where f is frequnecy
@@ -392,8 +392,16 @@ waveform_gen dds
 	.saw_out		(saw_wave)
 );
 
+// Sync slow clock data from lfsr to fast clock data of modulator
+slow_to_fast lfsr_to_modulator(
+	.slow_clk	(Clock_1Hz),
+	.fast_clk	(CLOCK_50),
+	.async_data	(lfsr_counter[0]),
+	.sync_data	(modulator)
+);
+
 /*
-	Part 3 -
+	Part 3 
 	ASK and BPSK modulation
 */
 
@@ -403,20 +411,20 @@ logic [11:0]	cos_ask;
 logic [11:0]	squ_ask;
 logic [11:0]	saw_ask;
 
-always_comb begin
-	if(lfsr_counter[0]) begin
-		sin_ask	<=	sin_wave;
-		cos_ask	<=	cos_wave;
-		squ_ask	<= squ_wave;
-		saw_ask	<=	saw_ask;
-	end
-	else begin
-		sin_ask	<=	12'b0;
-		cos_ask	<=	12'b0;
-		squ_ask	<= 12'b0;
-		saw_ask	<=	12'b0;
-	end
-end
+ASK_modulator ask_modulator_inst(
+	.modulator	(modulator),
+
+	.sin_wave	(sin_wave),
+	.cos_wave	(cos_wave),
+	.squ_wave	(squ_wave),
+	.saw_wave	(saw_wave),
+
+	.sin_ask		(sin_ask),
+	.cos_ask		(cos_ask),
+	.squ_ask		(squ_ask),
+	.saw_ask		(saw_ask)
+);
+
 
 // BPSK
 logic [11:0]	sin_bpsk;
@@ -424,15 +432,56 @@ logic [11:0]	cos_bpsk;
 logic [11:0]	squ_bpsk;
 logic [11:0]	saw_bpsk;
 
-logic [11:0]	minus_sin;
-logic [11:0]	minus_cos;
-logic [11:0]	minus_squ;
-logic [11:0]	minus_saw;
+BPSK_modulator bskp_modulator_inst(
+	.modulator	(modulator),
 
-assign minus_sin = 	{};
-assign minus_cos =	{};
-assign minus_squ =	{};
-assign minus_saw = 	{};
+	.sin_wave	(sin_wave),
+	.cos_wave	(cos_wave),
+	.squ_wave	(squ_wave),
+	.saw_wave	(saw_wave),
+
+	.sin_bpsk	(sin_bpsk),
+	.cos_bpsk	(cos_bpsk),
+	.squ_bpsk	(squ_bpsk),
+	.saw_bpsk	(saw_bpsk)
+);
+
+
+/*
+	Part 4
+	Connecting signals to VGA
+*/
+
+	
+(* keep = 1, preserve = 1 *) logic [11:0] actual_selected_modulation;
+(* keep = 1, preserve = 1 *) logic [11:0] actual_selected_signal;
+
+logic [11:0] selected_modulation;
+logic [11:0] selected_signal;
+
+
+fast_to_slow modulation_to_vga (
+	.slow_clk	(video_clk_40Mhz),
+	.fast_clk	(CLOCK_50),
+	.async_data	(selected_modulation),
+	.sync_data	(actual_selected_modulation)
+);
+
+fast_to_slow signal_to_vga (
+	.slow_clk	(video_clk_40Mhz),
+	.fast_clk	(CLOCK_50),
+	.async_data	(actual_selected_signal),
+	.sync_data	(actual_selected_signal)
+);
+
+modulator_signal_selector modulator_signal_selector_inst
+(
+	.signal_selector					(signal_selector),
+	.modulation_selector				(modulation_selector),
+
+	.selected_modulation				(selected_modulation),
+	.selected_signal					(selected_signal)		
+);
 
 ////////////////////////////////////////////////////////////////////
 // 

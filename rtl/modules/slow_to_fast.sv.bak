@@ -1,0 +1,11 @@
+module slow_to_fast
+# (parameter S = 12)
+(
+	input		logic			slow_clk,
+	input		logic				fast_clk,
+	input		logic[(S-1):0]	async_data,
+	output	logic[(S-1):0]	sync_data
+);
+
+
+endmodule
