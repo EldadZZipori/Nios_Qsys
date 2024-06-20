@@ -375,7 +375,7 @@ logic [11:0]	cos_wave;
 logic [11:0]	squ_wave;
 logic [11:0]	saw_wave;
 
-waveform_gen dds
+waveform_gen dds_1
 (
 	.clk			(CLOCK_50),
 	.reset		(1'b1),					// Inverted reset - resets when LOW
@@ -392,6 +392,25 @@ waveform_gen dds
 	.saw_out		(saw_wave)
 );
 
+logic [11:0]	fsk_waves[3:0];
+waveform_gen dds_2
+(
+	.clk			(CLOCK_50),
+	.reset		(1'b1),					// Inverted reset - resets when LOW
+	
+	.en			(1'b1),					// Enable (HIGH) the phase_inc signal to increase the phase accumulator
+	.phase_inc	(dds_increment),		// unsigned 32bit phase increment to be accumulated. This phase is quantized to 12-bit 
+												// that is passed to a lookup table whch converts the phase to a waveform
+												// inc = (f_out * 2^32)/f_in + 0.5 where f is frequnecy
+ 	
+	/* Outputs */
+	.sin_out		(fsk_waves[0]),		// all outputs are signed (2's complement) of size 12 bits
+	.cos_out		(fsk_waves[1]),
+	.squ_out		(fsk_waves[2]),
+	.saw_out		(fsk_waves[3])
+);
+
+
 // Sync slow clock data from lfsr to fast clock data of modulator
 slow_to_fast lfsr_to_modulator(
 	.slow_clk	(Clock_1Hz),
@@ -406,10 +425,7 @@ slow_to_fast lfsr_to_modulator(
 */
 
 // ASK
-logic [11:0]	sin_ask;
-logic [11:0]	cos_ask;
-logic [11:0]	squ_ask;
-logic [11:0]	saw_ask;
+logic [11:0]	ask_waves[3:0];
 
 ASK_modulator ask_modulator_inst(
 	.modulator	(modulator),
@@ -419,18 +435,15 @@ ASK_modulator ask_modulator_inst(
 	.squ_wave	(squ_wave),
 	.saw_wave	(saw_wave),
 
-	.sin_ask		(sin_ask),
-	.cos_ask		(cos_ask),
-	.squ_ask		(squ_ask),
-	.saw_ask		(saw_ask)
+	.sin_ask		(ask_waves[0]),
+	.cos_ask		(ask_waves[1]),
+	.squ_ask		(ask_waves[2]),
+	.saw_ask		(ask_waves[3])
 );
 
 
 // BPSK
-logic [11:0]	sin_bpsk;
-logic [11:0]	cos_bpsk;
-logic [11:0]	squ_bpsk;
-logic [11:0]	saw_bpsk;
+logic [11:0]	bpsk_waves[3:0];
 
 BPSK_modulator bskp_modulator_inst(
 	.modulator	(modulator),
@@ -440,10 +453,10 @@ BPSK_modulator bskp_modulator_inst(
 	.squ_wave	(squ_wave),
 	.saw_wave	(saw_wave),
 
-	.sin_bpsk	(sin_bpsk),
-	.cos_bpsk	(cos_bpsk),
-	.squ_bpsk	(squ_bpsk),
-	.saw_bpsk	(saw_bpsk)
+	.sin_bpsk	(bpsk_waves[0]),
+	.cos_bpsk	(bpsk_waves[1]),
+	.squ_bpsk	(bpsk_waves[2]),
+	.saw_bpsk	(bpsk_waves[3])
 );
 
 
@@ -468,17 +481,27 @@ fast_to_slow modulation_to_vga (
 );
 
 fast_to_slow signal_to_vga (
-	.slow_clk	(video_clk_40Mhz),
+	.slow_clk	(sampler),						// This is the clock for the VGA oscilloscope smapling
 	.fast_clk	(CLOCK_50),
 	.async_data	(actual_selected_signal),
 	.sync_data	(actual_selected_signal)
 );
 
+
 modulator_signal_selector modulator_signal_selector_inst
 (
 	.signal_selector					(signal_selector),
 	.modulation_selector				(modulation_selector),
-
+	
+	.sin_wave	(sin_wave),
+	.cos_wave	(cos_wave),
+	.squ_wave	(squ_wave),
+	.saw_wave	(saw_wave),
+	
+	.ask_mod								(ask_waves),
+	.bpsk_mod							(bpsk_waves),
+	.fsk_mod								(fsk_waves),
+	
 	.selected_modulation				(selected_modulation),
 	.selected_signal					(selected_signal)		
 );
