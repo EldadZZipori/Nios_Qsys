@@ -4,7 +4,7 @@ module LFSR_tb();
 	logic reset_tb;
 	logic[4:0] lfsr_counter_tb;
 	
-	LFSR # (.B(5))
+	LFSR # (.B(6))
 	LFSR_inst
 	(
 		.clk				(CLOCK_tb),

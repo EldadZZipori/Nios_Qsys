@@ -9,7 +9,7 @@
 */
 
 module LFSR
-# (parameter B = 5)
+# (parameter B = 6)
 (
 	input 	logic 					clk,
 	input		logic						reset,

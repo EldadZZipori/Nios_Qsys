@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'DE1_SoC_QSYS'
  * SOPC Builder design path: ../../DE1_SoC_QSYS.sopcinfo
  *
- * Generated: Wed Jun 19 13:04:43 PDT 2024
+ * Generated: Wed Jun 19 21:15:34 PDT 2024
  */
 
 /*
@@ -443,6 +443,33 @@
 
 
 /*
+ * color_selector configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_color_selector altera_avalon_pio
+#define COLOR_SELECTOR_BASE 0x0
+#define COLOR_SELECTOR_BIT_CLEARING_EDGE_REGISTER 0
+#define COLOR_SELECTOR_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define COLOR_SELECTOR_CAPTURE 0
+#define COLOR_SELECTOR_DATA_WIDTH 8
+#define COLOR_SELECTOR_DO_TEST_BENCH_WIRING 0
+#define COLOR_SELECTOR_DRIVEN_SIM_VALUE 0
+#define COLOR_SELECTOR_EDGE_TYPE "NONE"
+#define COLOR_SELECTOR_FREQ 50000000
+#define COLOR_SELECTOR_HAS_IN 0
+#define COLOR_SELECTOR_HAS_OUT 1
+#define COLOR_SELECTOR_HAS_TRI 0
+#define COLOR_SELECTOR_IRQ -1
+#define COLOR_SELECTOR_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define COLOR_SELECTOR_IRQ_TYPE "NONE"
+#define COLOR_SELECTOR_NAME "/dev/color_selector"
+#define COLOR_SELECTOR_RESET_VALUE 0
+#define COLOR_SELECTOR_SPAN 16
+#define COLOR_SELECTOR_TYPE "altera_avalon_pio"
+
+
+/*
  * dds_increment configuration
  *
  */
@@ -764,7 +791,7 @@
 #define SYSID_QSYS_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_QSYS_NAME "/dev/sysid_qsys"
 #define SYSID_QSYS_SPAN 8
-#define SYSID_QSYS_TIMESTAMP 1718825703
+#define SYSID_QSYS_TIMESTAMP 1718856744
 #define SYSID_QSYS_TYPE "altera_avalon_sysid_qsys"
 
 

@@ -42,7 +42,8 @@
 			vga_alt_vip_itc_0_clocked_video_vid_f             : out   std_logic;                                        -- vid_f
 			vga_alt_vip_itc_0_clocked_video_vid_h             : out   std_logic;                                        -- vid_h
 			vga_alt_vip_itc_0_clocked_video_vid_v             : out   std_logic;                                        -- vid_v
-			vga_vga_clk_clk                                   : out   std_logic                                         -- clk
+			vga_vga_clk_clk                                   : out   std_logic;                                        -- clk
+			color_selector_export                             : out   std_logic_vector(7 downto 0)                      -- export
 		);
 	end component DE1_SoC_QSYS;
 

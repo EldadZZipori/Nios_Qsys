@@ -1,91 +1,32 @@
-# vsim -gui -l msim_transcript fast_to_slow_tb 
-# Start time: 11:10:13 on Jun 19,2024
+# vsim -gui -l msim_transcript lfsr_tb 
+# Start time: 07:42:35 on Jun 20,2024
+# ** Error: (vsim-3170) Could not find 'lfsr_tb'.
+#         Searched libraries:
+#             C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/work
+# Error loading design
+# End time: 07:42:36 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -gui -l msim_transcript LFSR_tb
+# vsim -gui -l msim_transcript LFSR_tb 
+# Start time: 07:42:55 on Jun 20,2024
 # Loading sv_std.std
-# Loading work.fast_to_slow_tb
-# Loading work.fast_to_slow
-# Loading work.ff_asyn_clr
-# Loading work.ff_asyn_clr_en
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(22): [PCDPC] - Port size (12) does not match connection size (1) for port 'D'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_1 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(22): [PCDPC] - Port size (12) does not match connection size (1) for port 'Q'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_1 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(23): [PCDPC] - Port size (12) does not match connection size (1) for port 'D'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_2 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(23): [PCDPC] - Port size (12) does not match connection size (1) for port 'Q'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_2 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-PLI-3003) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv(33): [TOFD] - System task or function '$randomize' is not defined.
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv
-run
-# ** Error (suppressible): (vsim-12023) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv(33): Cannot execute undefined system task/function '$randomize'
-# Time 20: async_data = 524
-# Time 40: async_data = e81
-# Time 60: async_data = 609
-# Time 80: async_data = 663
-# Time 100: async_data = b0d
+# Loading work.LFSR_tb
+# Loading work.LFSR
 add wave -position insertpoint  \
-sim:/fast_to_slow_tb/slow_clk \
-sim:/fast_to_slow_tb/fast_clk \
-sim:/fast_to_slow_tb/async_data \
-sim:/fast_to_slow_tb/sync_data
+sim:/LFSR_tb/lfsr_counter_tb
+# Compile of LFSR.sv was successful.
+# Compile of LFSR_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
 restart -f
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(22): [PCDPC] - Port size (12) does not match connection size (1) for port 'D'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_1 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(22): [PCDPC] - Port size (12) does not match connection size (1) for port 'Q'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_1 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(23): [PCDPC] - Port size (12) does not match connection size (1) for port 'D'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_2 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv(23): [PCDPC] - Port size (12) does not match connection size (1) for port 'Q'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb/uut/ff_sync_2 File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv
-# ** Warning: (vsim-PLI-3003) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv(33): [TOFD] - System task or function '$randomize' is not defined.
-#    Time: 0 ps  Iteration: 0  Instance: /fast_to_slow_tb File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv
+# Loading work.LFSR_tb
+# Loading work.LFSR
+# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv(8): [PCDPC] - Port size (6) does not match connection size (5) for port 'current_value'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /LFSR_tb/LFSR_inst File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
 run
-# ** Error (suppressible): (vsim-12023) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/fast_to_slow_tb.sv(33): Cannot execute undefined system task/function '$randomize'
-# Time 20: async_data = 524
-# Time 40: async_data = e81
-# Time 60: async_data = 609
-# Time 80: async_data = 663
-# Time 100: async_data = b0d
 run
-# Time 120: async_data = 98d
-# Time 140: async_data = 465
-# Time 160: async_data = 212
-# Time 180: async_data = 301
-# Time 200: async_data = d0d
 run
-# Time 220: async_data = 176
-# Time 240: async_data = d3d
-# Time 260: async_data = 7ed
-# Time 280: async_data = 78c
-# Time 300: async_data = 9f9
 run
-# Time 320: async_data = 4c6
-# Time 340: async_data = 4c5
-# Time 360: async_data = 2aa
-# Time 380: async_data = 7e5
-# Time 400: async_data = 277
 run
-# Time 420: async_data = 612
-# Time 440: async_data = b8f
-# Time 460: async_data = 9f2
-# Time 480: async_data = 6ce
-# Time 500: async_data = ae8
 run
-# Time 520: async_data = ec5
-# Time 540: async_data = 95c
-# Time 560: async_data = 8bd
-# Time 580: async_data = 82d
-# Time 600: async_data = 665
-run
-# Time 620: async_data = 263
-# Time 640: async_data = 70a
-# Time 660: async_data = 280
-# Time 680: async_data = 120
-# Time 700: async_data = 5aa
-run
-# Time 720: async_data = c9d
-# Time 740: async_data = e96
-# Time 760: async_data = 813
-# Time 780: async_data = 80d
-# Time 800: async_data = 653
-# End time: 17:04:20 on Jun 19,2024, Elapsed time: 5:54:07
-# Errors: 2, Warnings: 10
+# End time: 07:44:44 on Jun 20,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 1

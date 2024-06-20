@@ -93,6 +93,13 @@ int set_note(int freq) {
 
 }
 
+/* ADDED CODE HERE*/
+// color selector
+//modulation selector
+void select_color(unsigned char color) {
+	IOWR(COLOR_SELECTOR_BASE, 0, color);
+}
+
 //modulation selector
 void select_modulation(unsigned char modulator) {
 	IOWR(MODULATION_SELECTOR_BASE, 0, modulator);

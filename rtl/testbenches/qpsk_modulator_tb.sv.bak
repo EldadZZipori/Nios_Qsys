@@ -1,0 +1,23 @@
+module qpsk_modulator_tb();
+
+logic [5:0] s_lfsr_counter;
+
+LFSR # (.B(6))
+LFSR_inst_2
+(
+	.clk				(Clock_1Hz),
+	.reset			(1'b0),
+	.current_value	(s_lfsr_counter)
+);
+
+
+logic [11:0] sin_qpsk;
+QPSK_modulator qpsk_modulator_inst(
+	.clk			(CLOCK_50),
+	.reset		(1'b0),
+	.IQ			({lfsr_counter[0],s_lfsr_counter[0]}),
+	
+	.sin_qpsk	(sin_qpsk)
+);
+
+endmodule

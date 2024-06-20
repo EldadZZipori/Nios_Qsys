@@ -8,61 +8,35 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim
-vASK_modulator
-Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1718814752
-!i10b 1
-!s100 b[_7?On3Gd<;T;k@KeNT]3
-IiC_oW0EgfAZRJ>_2JLNOE2
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-!s105 ASK_modulator_sv_unit
-S1
-R0
-w1718814694
-8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv
-FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv
-L0 1
-Z4 OV;L;10.5b;63
-r1
-!s85 0
-31
-Z5 !s108 1718814752.000000
-!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv|
-!i113 1
-Z6 o-sv -work work
-Z7 !s92 -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules
-Z8 tCvgOpt 0
-n@a@s@k_modulator
 vCursor
-R1
-Z9 !s110 1718814749
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1718894483
 !i10b 1
 !s100 ZXTeS?LLcZlSLagD_fK5c0
 IM>Z7mVQLcSTC7N6icRFZf0
-R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 Cursor_v_unit
 S1
 R0
-Z10 w1718735271
+Z4 w1718735271
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Cursor.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Cursor.v
 L0 1
-R4
+Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z11 !s108 1718814749.000000
+Z6 !s108 1718894483.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Cursor.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Cursor.v|
 !i113 1
-R6
-Z12 !s92 -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl
-R8
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl
+Z9 tCvgOpt 0
 n@cursor
 vdoublesync_no_reset
 R1
-Z13 !s110 1718814750
+R2
 !i10b 1
 !s100 HWZJTb]65R]kHD_maC8H20
 Iommi?<zK:Nd;07_770mJ21
@@ -70,24 +44,24 @@ R3
 !s105 doublesync_no_reset_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/doublesync_no_reset.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/doublesync_no_reset.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-Z14 !s108 1718814750.000000
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/doublesync_no_reset.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/doublesync_no_reset.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 vFFXII_LB_Cursor
 R1
-R9
+R2
 !i10b 1
 !s100 n3YT0]NCU<bJ>DMTB^hjC3
 Ij?9XSXL>bi@G5RMCAZ9@C3
@@ -95,25 +69,25 @@ R3
 !s105 FFXII_LB_Cursor_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 n@f@f@x@i@i_@l@b_@cursor
 vFFXII_LB_Cursor2
 R1
-R9
+R2
 !i10b 1
 !s100 f:4?M`N<UMf4nR2Yc3MI81
 ITQc6OQSVK?bai6anz=]>k0
@@ -121,25 +95,25 @@ R3
 !s105 FFXII_LB_Cursor2_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor2.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor2.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor2.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/FFXII_LB_Cursor2.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 n@f@f@x@i@i_@l@b_@cursor2
 vhack_ltm_sincronization
 R1
-R9
+R2
 !i10b 1
 !s100 mYMDzM<ITdkX9]HM?DKj_0
 IC21nEcDC1j<a[AR[j0a5Z2
@@ -147,24 +121,24 @@ R3
 !s105 hack_ltm_sincronization_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/hack_ltm_sincronization.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/hack_ltm_sincronization.v
-Z15 L0 22
-R4
+Z10 L0 22
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/hack_ltm_sincronization.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/hack_ltm_sincronization.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 vKeyboard_Controller
 R1
-R13
+R2
 !i10b 1
 !s100 32maH?HE>8_^M1=lFUGU<2
 Ii<7fQBIfnR^g9Q`_=SSQI3
@@ -172,51 +146,25 @@ R3
 !s105 Keyboard_Controller_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Keyboard_Controller.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Keyboard_Controller.v
 L0 9
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Keyboard_Controller.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Keyboard_Controller.v|
 !i113 1
-R6
-R12
-R8
-n@keyboard_@controller
-vLFSR
-R1
-R2
-!i10b 1
-!s100 ^TK3QO<UKoISQ]:HKnRS82
-IR:2]R^7[babO[5i1I6z]Y1
-R3
-!s105 LFSR_sv_unit
-S1
-R0
-w1718811251
-8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
-FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
-L0 11
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv|
-!i113 1
-R6
 R7
 R8
-n@l@f@s@r
+R9
+n@keyboard_@controller
 vplot_graph
 R1
-R9
+R2
 !i10b 1
 !s100 zmbfW4ih]_CZLEeFVbXQI1
 I_oIJ06FNR2NCh]UnS;Ual2
@@ -224,24 +172,24 @@ R3
 !s105 plot_graph_v_unit
 S1
 R0
-Z16 w1718735272
+Z11 w1718735272
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/plot_graph.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/plot_graph.v
-R15
-R4
+R10
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/plot_graph.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/plot_graph.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 vPS2_ScanCodeReader
 R1
-R9
+R2
 !i10b 1
 !s100 Z8AbZ6ZR8zoXGHE_?2BRK0
 IWVCUX8`^LHY0Oi5i=S^Az2
@@ -249,25 +197,25 @@ R3
 !s105 PS2_ScanCodeReader_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/PS2_ScanCodeReader.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/PS2_ScanCodeReader.v
 L0 9
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/PS2_ScanCodeReader.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/PS2_ScanCodeReader.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 n@p@s2_@scan@code@reader
 vScanCodeToEvent
 R1
-R13
+!s110 1718894484
 !i10b 1
 !s100 ]:KcAHmF20SR9KGacLJXP1
 IgUmi2eZ6lo;HeOPMA41H_3
@@ -275,25 +223,25 @@ R3
 !s105 ScanCodeToEvent_v_unit
 S1
 R0
-R10
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/ScanCodeToEvent.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/ScanCodeToEvent.v
 L0 12
-R4
+R5
 r1
 !s85 0
 31
-R14
+!s108 1718894484.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/scan_events.h|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/ScanCodeToEvent.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/ScanCodeToEvent.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9
 n@scan@code@to@event
 vsdram1
 R1
-R9
+R2
 !i10b 1
 !s100 I3WZ?djNzLkKb9_S<:eRf1
 I:1T]?nSTgbzT]C2PD?gj43
@@ -301,18 +249,18 @@ R3
 !s105 sdram1_v_unit
 S1
 R0
-R16
+R11
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sdram1.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sdram1.v
 L0 39
-R4
+R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sdram1.v|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/sdram1.v|
 !i113 1
-R6
-R12
+R7
 R8
+R9

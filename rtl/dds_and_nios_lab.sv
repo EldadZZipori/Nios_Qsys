@@ -325,7 +325,8 @@ DE1_SoC_QSYS U0(
 		 /* ADDED QSYS*/
 		 .lfsr_clk_interrupt_gen_external_connection_export(Clock_1Hz),
 		 .lfsr_val_external_connection_export	 				(lfsr_counter),
-		 .dds_increment_external_connection_export			(dds_increment)
+		 .dds_increment_external_connection_export			(dds_increment),
+		 .color_selector_export										(color_selector)
 	);
 	
  
@@ -340,6 +341,17 @@ DE1_SoC_QSYS U0(
 	Creating a 5 BIT LFSR with a 1Hz Clock
 */
 localparam CLOCK_50MHz_TO_1HZ_RATIO 	=	50000000 >> 1'b1;
+
+logic [7:0] color_selector;
+logic [23:0] color;
+always_comb begin
+	case(color_selector)
+		0: color = 24'h0000FF;
+		1: color = 24'hFF0000;
+		default: color = 24'h0000FF;
+	endcase
+end
+
 
 logic[4:0] 	lfsr_counter;
 logic 		modulator;
@@ -483,7 +495,7 @@ fast_to_slow modulation_to_vga (
 fast_to_slow signal_to_vga (
 	.slow_clk	(sampler),						// This is the clock for the VGA oscilloscope smapling
 	.fast_clk	(CLOCK_50),
-	.async_data	(actual_selected_signal),
+	.async_data	(selected_signal),
 	.sync_data	(actual_selected_signal)
 );
 
@@ -501,11 +513,37 @@ modulator_signal_selector modulator_signal_selector_inst
 	.ask_mod								(ask_waves),
 	.bpsk_mod							(bpsk_waves),
 	.fsk_mod								(fsk_waves),
+	.LFSR									({11{lfsr_counter[0]}}),
+	.sin_qpsk							(sin_qpsk),
 	
 	.selected_modulation				(selected_modulation),
 	.selected_signal					(selected_signal)		
 );
 
+
+/*
+	BONUS
+*/
+
+logic [5:0] s_lfsr_counter;
+
+LFSR # (.B(6))
+LFSR_inst_2
+(
+	.clk				(Clock_1Hz),
+	.reset			(1'b0),
+	.current_value	(s_lfsr_counter)
+);
+
+
+logic [11:0] sin_qpsk;
+QPSK_modulator qpsk_modulator_inst(
+	.clk			(CLOCK_50),
+	.reset		(1'b0),
+	.IQ			({lfsr_counter[0],s_lfsr_counter[0]}),
+	
+	.sin_qpsk	(sin_qpsk)
+);
 ////////////////////////////////////////////////////////////////////
 // 
 //                       End of Student Code Section
@@ -656,7 +694,7 @@ plot_graph plot_graph1
 	.data_graph({~actual_selected_modulation[11],actual_selected_modulation[10:4]}) ,	// input [size_data-1:0] data_graph_sig
 	.data_graph_rdy(sampler) ,	// input  data_graph_rdy_sig
 	.display_clk(video_clk_40Mhz) ,	// input  display_clk_sig
-	.color_graph(24'h00ff30) ,	// input [numberRGB-1:0] color_graph_sig
+	.color_graph(color) ,	// input [numberRGB-1:0] color_graph_sig
 	.scroll_en(graph_enable_scroll) ,	// input  scroll_en_sig
 	.Pos_X(11'd0) ,	// input [Xcount-1:0] Pos_X_sig
 	.Pos_Y(11'd266) ,	// input [Ycount-1:0] Pos_Y_sig
@@ -679,7 +717,7 @@ plot_graph plot_graph2
 	.data_graph({~actual_selected_signal[11],actual_selected_signal[10:4]}) ,	// input [size_data-1:0] data_graph_sig
 	.data_graph_rdy(sampler) ,	// input  data_graph_rdy_sig
 	.display_clk(video_clk_40Mhz) ,	// input  display_clk_sig
-	.color_graph(24'h00ff30) ,	// input [numberRGB-1:0] color_graph_sig
+	.color_graph(color) ,	// input [numberRGB-1:0] color_graph_sig
 	.scroll_en(graph_enable_scroll) ,	// input  scroll_en_sig
 	.Pos_X(11'd0) ,	// input [Xcount-1:0] Pos_X_sig
 	.Pos_Y(11'd438) ,	// input [Ycount-1:0] Pos_Y_sig

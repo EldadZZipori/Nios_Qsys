@@ -1,0 +1,3 @@
+module QPSK_modulator(
+	input logic [1:0] IQ, // Get this from two different LFSRs
+)

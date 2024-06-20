@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>19-Jun-2024 1:04:42 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1718827482522</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>19-Jun-2024 9:15:33 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1718856933712</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\eldad\OneDrive\Desktop\CPEN311\LAB5\Nios_Qsys\rtl\software\lab5_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\DE1_SoC_QSYS.sopcinfo</SopcDesignFile>
@@ -1738,6 +1738,12 @@
                 <Enabled>false</Enabled>
                 <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         </Setting>
+        <MemoryMap>
+                <slaveDescriptor>color_selector</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0000000F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sdram</slaveDescriptor>
                 <addressRange>0x04000000 - 0x07FFFFFF</addressRange>

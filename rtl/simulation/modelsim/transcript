@@ -1,6 +1,808 @@
-# Compile of fast_to_slow_tb.sv was successful.
-# Compile of fast_to_slow.sv was successful.
-# Compile of ff_asyn_clr.sv was successful.
-# Compile of ff_asyn_clr_en.sv was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui -l msim_transcript fast_to_slow_tb
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v 
+# -- Compiling module alt_vipitc131_common_generic_count
+# 
+# Top level modules:
+# 	alt_vipitc131_common_generic_count
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v 
+# -- Compiling module alt_vipitc131_common_sync
+# 
+# Top level modules:
+# 	alt_vipitc131_common_sync
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v 
+# -- Compiling module alt_vipitc131_common_trigger_sync
+# 
+# Top level modules:
+# 	alt_vipitc131_common_trigger_sync
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v 
+# -- Compiling module DE1_SoC_QSYS_timer
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_timer
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v 
+# -- Compiling module DE1_SoC_QSYS_sysid_qsys
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_sysid_qsys
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v 
+# -- Compiling module DE1_SoC_QSYS_sdram_input_efifo_module
+# -- Compiling module DE1_SoC_QSYS_sdram
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_sdram
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v 
+# -- Compiling module DE1_SoC_QSYS_pll
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_pll
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v 
+# -- Compiling module DE1_SoC_QSYS_mouse_pos
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mouse_pos
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v 
+# -- Compiling module DE1_SoC_QSYS_modulation_selector
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_modulation_selector
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v 
+# -- Compiling module DE1_SoC_QSYS_lfsr_val
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_lfsr_val
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v 
+# -- Compiling module DE1_SoC_QSYS_lfsr_clk_interrupt_gen
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_lfsr_clk_interrupt_gen
+# End time: 07:42:05 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:05 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v 
+# -- Compiling module DE1_SoC_QSYS_keyboard_keys
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_keyboard_keys
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v 
+# -- Compiling module DE1_SoC_QSYS_key
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_key
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v 
+# -- Compiling module DE1_SoC_QSYS_jtag_uart_sim_scfifo_w
+# -- Compiling module DE1_SoC_QSYS_jtag_uart_scfifo_w
+# -- Compiling module DE1_SoC_QSYS_jtag_uart_sim_scfifo_r
+# -- Compiling module DE1_SoC_QSYS_jtag_uart_scfifo_r
+# -- Compiling module DE1_SoC_QSYS_jtag_uart
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_jtag_uart
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v 
+# -- Compiling module DE1_SoC_QSYS_dds_increment
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_dds_increment
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v 
+# -- Compiling module DE1_SoC_QSYS_color_selector
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_color_selector
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v 
+# -- Compiling module DE1_SoC_QSYS_audio_sel
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio_sel
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v 
+# -- Compiling module DE1_SoC_QSYS_audio
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v 
+# -- Compiling module DE1_SoC_QSYS_audio_fifo_used
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio_fifo_used
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v 
+# -- Compiling module DE1_SoC_QSYS_audio_OUT_PAUSE
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio_OUT_PAUSE
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v 
+# -- Compiling module DE1_SoC_QSYS_audio_EMPTY
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio_EMPTY
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v 
+# -- Compiling module DE1_SoC_QSYS_audio_DATA_FREGEN
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_audio_DATA_FREGEN
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/modulator_signal_selector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/modulator_signal_selector.sv 
+# -- Compiling module modulator_signal_selector
+# 
+# Top level modules:
+# 	modulator_signal_selector
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv 
+# -- Compiling module LFSR
+# 
+# Top level modules:
+# 	LFSR
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ASK_modulator.sv 
+# -- Compiling module ASK_modulator
+# 
+# Top level modules:
+# 	ASK_modulator
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Generate_Arbitrary_Divided_Clk32.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/Generate_Arbitrary_Divided_Clk32.sv 
+# -- Compiling module Generate_Arbitrary_Divided_Clk32
+# 
+# Top level modules:
+# 	Generate_Arbitrary_Divided_Clk32
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/BPSK_modulator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/BPSK_modulator.sv 
+# -- Compiling module BPSK_modulator
+# 
+# Top level modules:
+# 	BPSK_modulator
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/slow_to_fast.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/slow_to_fast.sv 
+# -- Compiling module slow_to_fast
+# 
+# Top level modules:
+# 	slow_to_fast
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr_en.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr_en.sv 
+# -- Compiling module ff_asyn_clr_en
+# 
+# Top level modules:
+# 	ff_asyn_clr_en
+# End time: 07:42:06 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:06 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/ff_asyn_clr.sv 
+# -- Compiling module ff_asyn_clr
+# 
+# Top level modules:
+# 	ff_asyn_clr
+# End time: 07:42:07 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:07 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/fast_to_slow.sv 
+# -- Compiling module fast_to_slow
+# 
+# Top level modules:
+# 	fast_to_slow
+# End time: 07:42:07 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/QPSK_modulator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:07 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/QPSK_modulator.sv 
+# -- Compiling module QPSK_modulator
+# 
+# Top level modules:
+# 	QPSK_modulator
+# End time: 07:42:07 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:07 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv 
+# -- Compiling module altera_irq_clock_crosser
+# 
+# Top level modules:
+# 	altera_irq_clock_crosser
+# End time: 07:42:07 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv 
+# -- Compiling module DE1_SoC_QSYS_irq_mapper
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_irq_mapper
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of LFSR.sv was successful.
+# Compile of LFSR_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
+# -- Compiling module altera_avalon_st_handshake_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_handshake_clock_crosser
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v 
+# -- Compiling module altera_avalon_st_clock_crosser
+# 
+# Top level modules:
+# 	altera_avalon_st_clock_crosser
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v 
+# -- Compiling module altera_std_synchronizer_nocut
+# 
+# Top level modules:
+# 	altera_std_synchronizer_nocut
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001
+# End time: 07:42:09 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:09 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_mux
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_rsp_demux
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_mux
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_cmd_demux
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_013_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_013
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router_013
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_009_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_009
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router_009
+# End time: 07:42:10 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:10 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_003_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_003
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router_003
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_002_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router_002
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_001_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router_001
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv 
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router_default_decode
+# -- Compiling module DE1_SoC_QSYS_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	DE1_SoC_QSYS_mm_interconnect_0_router
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv 
+# -- Compiling module alt_vipitc131_IS2Vid
+# 
+# Top level modules:
+# 	alt_vipitc131_IS2Vid
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work DE1_SoC_QSYS "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv 
+# -- Compiling module alt_vipitc131_IS2Vid_mode_banks
+# 
+# Top level modules:
+# 	alt_vipitc131_IS2Vid_mode_banks
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:42:11 on Jun 20,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl" C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv 
+# -- Compiling module dds_and_nios_lab
+# ** Error (suppressible): C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv(345): (vlog-2388) 'color_selector' already declared in this scope (dds_and_nios_lab).
+# ** Error (suppressible): C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv(356): (vlog-2388) 'lfsr_counter' already declared in this scope (dds_and_nios_lab).
+# ** Error (suppressible): C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv(358): (vlog-2388) 'Clock_1Hz' already declared in this scope (dds_and_nios_lab).
+# ** Error (suppressible): C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv(384): (vlog-2388) 'dds_increment' already declared in this scope (dds_and_nios_lab).
+# ** Error (suppressible): C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds_and_nios_lab.sv(539): (vlog-2388) 'sin_qpsk' already declared in this scope (dds_and_nios_lab).
+# End time: 07:42:11 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./dds_and_nios_lab_run_msim_rtl_systemverilog.do line 114
+# C:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl {C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/dds..."
+vsim -gui -l msim_transcript lfsr_tb

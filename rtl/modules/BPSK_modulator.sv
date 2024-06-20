@@ -19,10 +19,10 @@ module BPSK_modulator(
 	logic [11:0]	minus_saw;
 
 	
-	assign minus_sin = 	{~sin_wave[11],sin_wave[10:0]};
-	assign minus_cos =	{~cos_wave[11],cos_wave[10:0]};
-	assign minus_squ =	{~squ_wave[11],squ_wave[10:0]};
-	assign minus_saw = 	{~saw_wave[11],saw_wave[10:0]};
+	assign minus_sin = 	(~sin_wave + 1'b1); // 2nd comliment
+	assign minus_cos =	(~cos_wave + 1'b1);
+	assign minus_squ =	(~squ_wave + 1'b1);
+	assign minus_saw = 	(~saw_wave + 1'b1);
 	
 
 	always_comb begin

@@ -38,13 +38,7 @@ module fast_to_slow_tb();
 
             // Generate random data for async_data
             async_data = $random;
-
-            // Print the values (optional, for debugging)
-            $display("Time %0t: async_data = %h", $time, async_data);
         end
-
-        // Finish simulation after generating data
-        $finish;
     end
 
 endmodule

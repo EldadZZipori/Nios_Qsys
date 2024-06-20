@@ -91,6 +91,16 @@ extern unsigned int size_song;
 unsigned char buttons_control1[12];
 unsigned char buttons_control2[12];
 
+/* MY CONSTANTS HERE!!!*/
+const unsigned int X 		= 667;
+const unsigned int WIDTH 	= 120;
+const unsigned int HIGH 	= 35;
+
+const unsigned int Y_BLUE	= 161;
+const unsigned int Y_RED	= 124;
+
+
+
 void draw_button(int x, int y, int w, int h, int color, char * text,
 		char event_type, alt_video_display* display) {
 
@@ -124,10 +134,16 @@ void init_background() { // INIT BACKGROUND
 	vid_draw_line(261, 262, 647, 262, 4, WHITE_24, SW_Frame);
 	vid_draw_line(261, 0, 800, 0, 4, WHITE_24, SW_Frame);
 
+	// See definition of buttons above. height is taken by finding the y between
+	// SINE and LFSR = 426-365 = 61 so space between ASK and BLUE is the same ASK - 61 = 191
+	draw_button(667, 161 , 120, 35,0x0066CC, "BLUE", 1 ,SW_Frame);
+	draw_button(667, 124 , 120, 35,0x0066CC, "RED", 0 ,SW_Frame);
+
 	draw_button(667, 252, 120, 35, 0x0066CC, "ASK", 1, SW_Frame);
 	draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 	draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 	draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
+	draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 	draw_button(667, 426, 120, 35, 0xCC6600, "SINE", 0, SW_Frame);
 	draw_button(667, 470, 120, 35, 0xCC6600, "COS", 0, SW_Frame);
@@ -187,6 +203,21 @@ event = mouse_pos(&x_mouse, &y_mouse);
 
 if (event == 1) {	//down event
 
+	//Logic for the color buttons
+	if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= Y_BLUE
+			&& y_mouse <= (Y_BLUE + 35)) {
+		draw_button(667, Y_BLUE, 120, 35, 0x0066CC, "BLUE", 1, SW_Frame);
+		draw_button(667, Y_RED, 120, 35, 0x0066CC, "RED", 0, SW_Frame);
+
+		select_color(0);
+	}
+	else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= Y_RED
+			&& y_mouse <= (Y_RED + 35)) {
+		draw_button(667, Y_BLUE, 120, 35, 0x0066CC, "BLUE", 0, SW_Frame);
+		draw_button(667, Y_RED, 120, 35, 0x0066CC, "RED", 1, SW_Frame);
+
+		select_color(1);
+	}
 
 	//Logic for the modulation buttons
 	if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 252
@@ -195,6 +226,7 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
+		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 		select_modulation(0);
 	}
@@ -205,6 +237,8 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 1, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
+		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+
 
 		select_modulation(1);
 	} else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 326
@@ -213,6 +247,8 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 1, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
+		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+
 
 		select_modulation(2);
 	} else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 365
@@ -221,8 +257,20 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 1, SW_Frame);
+		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+
 
 		select_modulation(3);
+	} else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 80
+			&& y_mouse <= (80 + 35)) {
+		draw_button(667, 252, 120, 35, 0x0066CC, "ASK", 0, SW_Frame);
+		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
+		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
+		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
+		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 1, SW_Frame);
+
+
+		select_modulation(4);
 	}
 
 	//Logic for the signal selector buttons
@@ -354,6 +402,9 @@ audio_selector(1);
 //init selectors
 select_modulation(0);
 select_signal(3);
+
+// initiate color
+select_color(0);
 
 //task song
 OSTaskCreateExt(task1,

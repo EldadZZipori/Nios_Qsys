@@ -19,6 +19,11 @@ int pause_wav();
 int set_audio_frequency_audio_controller(int freq);
 //modulation selector
 void select_modulation(unsigned char modulator);
+
+/* ADDED CODE HERE!!!*/
+// color selector
+void select_color(unsigned char color);
+
 //signal selector
 void select_signal(unsigned char signal);
 //audio selector

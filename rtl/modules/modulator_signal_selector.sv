@@ -12,47 +12,43 @@ module modulator_signal_selector
 	input logic [11:0]	ask_mod[3:0],
 	input logic [11:0]	fsk_mod[3:0],
 	input logic [11:0]	bpsk_mod[3:0],
+	input	logic [11:0] 	sin_qpsk,
 	
-	
+	input logic	[4:0]		LFSR,
 
 	output logic [11:0] selected_modulation,
 	output logic [11:0] selected_signal
 );
 	
-	logic [3:0]i;
  
 	always_comb begin
 		case (signal_selector)
 			0:	begin
 				selected_signal = sin_wave;
-				i = 0;
 			end
 			1: begin
 				selected_signal = cos_wave;
-				i = 1;
 			end
 			2:  begin
-				selected_signal = squ_wave;
-				i = 2;
+				selected_signal = saw_wave;
 			end
 			3:  begin
-				selected_signal = saw_wave;
-				i = 3;
+				selected_signal = squ_wave;
 			end
 			default: begin
-				selected_signal = 0;
-				i = 0;
+				selected_signal = squ_wave;
 			end
 		endcase
 	end
 	
 	always_comb begin
-		case (modulation_selector)
-			0:	selected_modulation = ask_mod[i];
-			1: selected_modulation = bpsk_mod[i];
-			2: selected_modulation = fsk_mod[i];
-			3: selected_modulation = ask_mod[i];
-			default: selected_modulation = 0;
+		case (modulation_selector)						// Modulation only displays the sin wave
+			0:	selected_modulation = ask_mod[0];
+			1: selected_modulation = fsk_mod[0];
+			2: selected_modulation = bpsk_mod[0];
+			3: selected_modulation = LFSR;
+			4: selected_modulation = sin_qpsk;
+			default: selected_modulation = ask_mod[0];
 		endcase
 	end
 endmodule
