@@ -1,6 +1,6 @@
 `default_nettype none
 `include "scan_events.h"
-//`define ENABLE_AUDIO_DEMO
+`define ENABLE_AUDIO_DEMO
 module dds_and_nios_lab(
 
       ///////// ADC /////////
@@ -165,7 +165,7 @@ module dds_and_nios_lab(
       output             VGA_VS
 );
 
-parameter COMPILE_HISTOGRAM_SUPPORT = 0;
+parameter COMPILE_HISTOGRAM_SUPPORT = 1;
 
 wire video_clk_40Mhz;
 wire vga_de;
@@ -499,6 +499,10 @@ fast_to_slow signal_to_vga (
 	.sync_data	(actual_selected_signal)
 );
 
+logic [11:0] lfsr_as_wave;
+
+assign lfsr_as_wave = lfsr_counter[0] ? 12'b0 : 12'h800;
+
 
 modulator_signal_selector modulator_signal_selector_inst
 (
@@ -513,7 +517,7 @@ modulator_signal_selector modulator_signal_selector_inst
 	.ask_mod								(ask_waves),
 	.bpsk_mod							(bpsk_waves),
 	.fsk_mod								(fsk_waves),
-	.LFSR									({11{lfsr_counter[0]}}),
+	.LFSR									(lfsr_as_wave),
 	.sin_qpsk							(sin_qpsk),
 	
 	.selected_modulation				(selected_modulation),

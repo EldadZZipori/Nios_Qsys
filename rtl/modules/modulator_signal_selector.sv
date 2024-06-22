@@ -14,7 +14,7 @@ module modulator_signal_selector
 	input logic [11:0]	bpsk_mod[3:0],
 	input	logic [11:0] 	sin_qpsk,
 	
-	input logic	[4:0]		LFSR,
+	input logic	[11:0]		LFSR,
 
 	output logic [11:0] selected_modulation,
 	output logic [11:0] selected_signal

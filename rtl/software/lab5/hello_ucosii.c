@@ -84,9 +84,15 @@ extern struct gimp_image_struct play_down;
 extern struct gimp_image_struct play_up;
 extern struct gimp_image_struct stop_down;
 extern struct gimp_image_struct stop_up;
+extern struct gimp_image_struct forward;
+extern struct gimp_image_struct back;
 
-extern unsigned char song[];
-extern unsigned int size_song;
+extern unsigned char song1[];
+extern unsigned int size_song1;
+
+extern unsigned char song2[];
+extern unsigned int size_song2
+;
 // VARIABLES GLOBALES DE BOTONES
 unsigned char buttons_control1[12];
 unsigned char buttons_control2[12];
@@ -98,6 +104,17 @@ const unsigned int HIGH 	= 35;
 
 const unsigned int Y_BLUE	= 161;
 const unsigned int Y_RED	= 124;
+
+
+unsigned char play_song = 0;
+unsigned char pause_song = 0;
+unsigned char stop_song = 0;
+unsigned char next_song = 0;
+unsigned char prev_song = 0;
+
+unsigned char current_song = 0;
+unsigned char active_song_size;
+
 
 
 
@@ -123,6 +140,8 @@ void init_background() { // INIT BACKGROUND
 	DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 	DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 	DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+	DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+	DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 	//init lines
 	vid_draw_line(652, 234, 800, 234, 4, WHITE_24, SW_Frame);
@@ -154,15 +173,10 @@ void init_background() { // INIT BACKGROUND
 
 /*Read song from EPCS, and send it to the FIFO*/
 #define MAX_ADDRESS 524287
-#define NUMERO_DE_MUESTRAS 1000 // mini buffervoid send_audio_fifo(unsigned char *buf) {int i;for (i = 0; i < NUMERO_DE_MUESTRAS; i++) {while (audio_dac_fifo_full() == 1);audio_dac_wr_fifo( buf[i % size_song]);
+#define NUMERO_DE_MUESTRAS 1000 // mini buffervoid send_audio_fifo(unsigned char *buf) {int i;for (i = 0; i < NUMERO_DE_MUESTRAS; i++) {while (audio_dac_fifo_full() == 1);audio_dac_wr_fifo( buf[i % active_song_size]);
 }
 
 }
-
-unsigned char play_song = 0;
-unsigned char pause_song = 0;
-unsigned char stop_song = 0;
-
 
 int freq_reader = FREQ_READER_NOMINAL;
 
@@ -175,8 +189,18 @@ while (1) {
 
 if (play_song == 1) {
 
-	send_audio_fifo(&song[address_counter % size_song]);
-	if (address_counter < size_song) {
+	switch (current_song) {
+		case 0:
+			 active_song_size = size_song1;
+			send_audio_fifo(&song1[address_counter % size_song1]);
+		break;
+		case 1:
+			 active_song_size = size_song2;
+			send_audio_fifo(&song2[address_counter % size_song2]);
+		break;
+
+	}
+	if (address_counter < active_song_size) {
 		address_counter += NUMERO_DE_MUESTRAS;
 
 	} else {
@@ -186,6 +210,27 @@ if (play_song == 1) {
 
 } else if (stop_song == 1) {
 	address_counter = 0;
+} else if (next_song == 1) {
+	address_counter = 0;
+	switch (current_song) {
+		case 0:
+			current_song = 1;
+		break;
+		case 1:
+			current_song = 0;
+		break;
+	}
+
+} else if (prev_song == 1) {
+	address_counter = 0;
+	switch (current_song) {
+		case 0:
+			current_song = 1;
+		break;
+		case 1:
+			current_song = 0;
+		break;
+	}
 }
 OSTimeDlyHMSM(0, 0, 0, 10);
 }
@@ -269,7 +314,6 @@ if (event == 1) {	//down event
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
 		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 1, SW_Frame);
 
-
 		select_modulation(4);
 	}
 
@@ -319,10 +363,14 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 		play_song = 1;
 		pause_song = 0;
 		stop_song = 0;
+		prev_song = 0;
+		next_song = 0;
 
 	} else if (x_mouse >= 404 && x_mouse <= (404 + stop_down.width)
 			&& y_mouse >= 45 && y_mouse <= (45 + stop_down.height)) {
@@ -332,10 +380,14 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 		play_song = 0;
 		pause_song = 0;
 		stop_song = 1;
+		prev_song = 0;
+		next_song = 0;
 	} else if (x_mouse >= 523 && x_mouse <= (523 + pause_down.width)
 			&& y_mouse >= 45 && y_mouse <= (45 + pause_down.height)) {
 		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
@@ -344,10 +396,44 @@ if (event == 1) {	//down event
 		BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 		play_song = 0;
 		pause_song = 1;
 		stop_song = 0;
+		prev_song = 0;
+		next_song = 0;
+	} else if (x_mouse >= 250 && x_mouse <= (250 + back.width)
+			&& y_mouse >= 177 && y_mouse <= (177 + back.height)) {
+		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &stop_up, 404, 45, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &pause_down, 523, 45,
+		BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+
+		play_song = 0;
+		pause_song = 0;
+		stop_song = 0;
+		prev_song = 1;
+		next_song = 0;
+	}  else if (x_mouse >= 570 && x_mouse <= (570 + forward.width)
+			&& y_mouse >= 177 && y_mouse <= (177 + forward.height)) {
+		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &stop_up, 404, 45, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &pause_down, 523, 45,
+		BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+
+		play_song = 0;
+		pause_song = 0;
+		stop_song = 0;
+		prev_song = 0;
+		next_song = 1;
 	} else if (x_mouse >= 333 && x_mouse <= (333 + back_up.width)
 			&& y_mouse >= 177 && y_mouse <= (177 + back_up.height)) {
 		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
@@ -356,6 +442,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &back_down, 333, 177,
 		BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 		freq_reader -= FREQ_READER_INCREMENT;
 		if (freq_reader < FREQ_READER_INCREMENT) {
@@ -370,6 +458,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_down, 512, 177,
 		BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
 
 		freq_reader += FREQ_READER_INCREMENT;
 		if (freq_reader > FREQ_READER_MAX) {

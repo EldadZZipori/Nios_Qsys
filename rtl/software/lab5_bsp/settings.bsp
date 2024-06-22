@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>ucosii</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>19-Jun-2024 9:15:33 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1718856933712</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>21-Jun-2024 10:13:37 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1719033217652</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\eldad\OneDrive\Desktop\CPEN311\LAB5\Nios_Qsys\rtl\software\lab5_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\DE1_SoC_QSYS.sopcinfo</SopcDesignFile>
