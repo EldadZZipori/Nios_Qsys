@@ -151,6 +151,8 @@ C_SRCS += graphic_lib/gimp_bmp.c
 C_SRCS += graphic_lib/simple_graphics.c
 C_SRCS += graphic_lib/simple_text.c
 C_SRCS += vip_fr.c
+C_SRCS += imagenes/forward.c
+C_SRCS += imagenes/back.c
 C_SRCS += imagenes/back_down.c
 C_SRCS += imagenes/back_up.c
 C_SRCS += imagenes/ford_down.c
@@ -165,8 +167,6 @@ C_SRCS += drivers/drivers.c
 C_SRCS += song/song1.c
 C_SRCS += song/song2.c
 C_SRCS += student_code/student_code.c
-C_SRCS += imagenes/forward.c
-C_SRCS += imagenes/back.c
 CXX_SRCS :=
 ASM_SRCS :=
 

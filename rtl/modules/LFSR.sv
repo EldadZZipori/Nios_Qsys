@@ -6,15 +6,16 @@
 	into the last bit;
 	
 	NOTE: the minimum value allowable is thus 4 BITS
+	NOTE 2: This only garuntees a full range for an LFSR with 5 BITS!
 */
 
 module LFSR
-# (parameter B = 6)
+# (parameter B = 5)
 (
 	input 	logic 					clk,
 	input		logic						reset,
 	
-	output	logic[(B-1):0]		current_value			// one word of BITS size 
+	output	logic[(B-1):0]		current_value				// one word of BITS size 
 	
 );
 	//localparam B = (BITS < 4) ? 4 : BITS;				// if amount of bits is smaller then 4 force the size to 4

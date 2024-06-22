@@ -1,4 +1,13 @@
-
+/*
+	SLOW TO FAST
+	
+	This module implements a synchronizer that moves data from a fast clock to a slower clock.
+	
+	A schematic for this module can be seen in doc/fast_to_slow.png
+	
+	Parameters 
+	S	-	The number of bits in each word of data 
+*/
 module fast_to_slow
 # (parameter S = 12)
 (

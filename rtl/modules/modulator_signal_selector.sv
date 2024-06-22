@@ -42,7 +42,7 @@ module modulator_signal_selector
 	end
 	
 	always_comb begin
-		case (modulation_selector)						// Modulation only displays the sin wave
+		case (modulation_selector)								// Modulation only displays the sin wave
 			0:	selected_modulation = ask_mod[0];
 			1: selected_modulation = fsk_mod[0];
 			2: selected_modulation = bpsk_mod[0];
