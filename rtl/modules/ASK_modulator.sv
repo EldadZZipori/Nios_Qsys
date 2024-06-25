@@ -1,3 +1,11 @@
+/*
+	ASK MODULATOR
+	
+	This module implements an ASK modulator.
+	When the modulator input is HIGH the input will be passed to the output.
+	When LOW nothing will be past to the output.
+*/
+
 module ASK_modulator(
 	input 	logic				modulator,
 

@@ -344,10 +344,12 @@ localparam CLOCK_50MHz_TO_1HZ_RATIO 	=	50000000 >> 1'b1;
 
 logic [7:0] color_selector;
 logic [23:0] color;
+
 always_comb begin
-	case(color_selector)
-		0: color = 24'h0000FF;
-		1: color = 24'hFF0000;
+	case(color_selector)						// Color Selector for wave
+		0: color = 24'h0000FF;				// BLUE
+		1: color = 24'hFF0000;				// RED
+		2: color = 24'h00FF00;				// GREEN
 		default: color = 24'h0000FF;
 	endcase
 end

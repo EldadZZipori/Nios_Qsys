@@ -1,3 +1,11 @@
+/*
+	BPSK MODULATOR
+	
+	This module implements a BPSK modulator. 
+	When the modulator is HIGH the output will be the original signal and when LOW it will be the
+	signal shifted by 180 degrees
+*/
+
 module BPSK_modulator(
 	input 	logic				modulator,
 
@@ -26,13 +34,13 @@ module BPSK_modulator(
 	
 
 	always_comb begin
-		if(modulator) begin
+		if(modulator) begin				// When modulator is HIGH pass the normal signal
 				sin_bpsk	=	sin_wave;
 				cos_bpsk	=	cos_wave;
 				squ_bpsk	=  squ_wave;
 				saw_bpsk	=	saw_wave;
 		end 
-		else begin 
+		else begin 							// When LOW pass the negative of the signal (2nd compliment)
 				sin_bpsk	=	minus_sin;
 				cos_bpsk	=	minus_cos;
 				squ_bpsk	=  minus_squ;

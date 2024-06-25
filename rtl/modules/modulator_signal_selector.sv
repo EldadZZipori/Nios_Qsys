@@ -1,3 +1,10 @@
+/*
+	MODULATOR SIGNAL SELECTOR 
+	
+	This module selects the correct signal and modulated signal to display.
+	
+*/
+
 module modulator_signal_selector
 # (parameter S = 12)
 (

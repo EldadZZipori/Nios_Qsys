@@ -140,8 +140,8 @@ void init_background() { // INIT BACKGROUND
 	DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 	DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 	DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-	DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-	DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+	DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+	DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 	//init lines
 	vid_draw_line(652, 234, 800, 234, 4, WHITE_24, SW_Frame);
@@ -157,12 +157,13 @@ void init_background() { // INIT BACKGROUND
 	// SINE and LFSR = 426-365 = 61 so space between ASK and BLUE is the same ASK - 61 = 191
 	draw_button(667, 161 , 120, 35,0x0066CC, "BLUE", 1 ,SW_Frame);
 	draw_button(667, 124 , 120, 35,0x0066CC, "RED", 0 ,SW_Frame);
+	draw_button(667, 80 , 120, 35,0x0066CC, "GREEN", 0 ,SW_Frame);
 
 	draw_button(667, 252, 120, 35, 0x0066CC, "ASK", 1, SW_Frame);
 	draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 	draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 	draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
-	draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+	draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 	draw_button(667, 426, 120, 35, 0xCC6600, "SINE", 0, SW_Frame);
 	draw_button(667, 470, 120, 35, 0xCC6600, "COS", 0, SW_Frame);
@@ -253,6 +254,8 @@ if (event == 1) {	//down event
 			&& y_mouse <= (Y_BLUE + 35)) {
 		draw_button(667, Y_BLUE, 120, 35, 0x0066CC, "BLUE", 1, SW_Frame);
 		draw_button(667, Y_RED, 120, 35, 0x0066CC, "RED", 0, SW_Frame);
+		draw_button(667, 80 , 120, 35,0x0066CC, "GREEN", 0 ,SW_Frame);
+
 
 		select_color(0);
 	}
@@ -260,8 +263,19 @@ if (event == 1) {	//down event
 			&& y_mouse <= (Y_RED + 35)) {
 		draw_button(667, Y_BLUE, 120, 35, 0x0066CC, "BLUE", 0, SW_Frame);
 		draw_button(667, Y_RED, 120, 35, 0x0066CC, "RED", 1, SW_Frame);
+		draw_button(667, 80 , 120, 35,0x0066CC, "GREEN", 0 ,SW_Frame);
+
 
 		select_color(1);
+	}
+	else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 80
+			&& y_mouse <= (80 + 35)) {
+		draw_button(667, Y_BLUE, 120, 35, 0x0066CC, "BLUE", 0, SW_Frame);
+		draw_button(667, Y_RED, 120, 35, 0x0066CC, "RED", 0, SW_Frame);
+		draw_button(667, 80 , 120, 35,0x0066CC, "GREEN", 1 ,SW_Frame);
+
+
+		select_color(2);
 	}
 
 	//Logic for the modulation buttons
@@ -271,7 +285,7 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
-		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+		draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 		select_modulation(0);
 	}
@@ -282,7 +296,7 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 1, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
-		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+		draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 
 		select_modulation(1);
@@ -292,7 +306,7 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 1, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
-		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+		draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 
 		select_modulation(2);
@@ -302,17 +316,17 @@ if (event == 1) {	//down event
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 1, SW_Frame);
-		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
+		draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 0, SW_Frame);
 
 
 		select_modulation(3);
-	} else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 80
-			&& y_mouse <= (80 + 35)) {
+	} else if (x_mouse >= 667 && x_mouse <= (667 + 120) && y_mouse >= 30
+			&& y_mouse <= (30 + 35)) {
 		draw_button(667, 252, 120, 35, 0x0066CC, "ASK", 0, SW_Frame);
 		draw_button(667, 289, 120, 35, 0x0066CC, "FSK", 0, SW_Frame);
 		draw_button(667, 326, 120, 35, 0x0066CC, "BPSK", 0, SW_Frame);
 		draw_button(667, 365, 120, 35, 0x0066CC, "LFSR", 0, SW_Frame);
-		draw_button(667, 80, 120, 35, 0x0066CC, "QPSK", 1, SW_Frame);
+		draw_button(667, 30, 120, 35, 0x0066CC, "QPSK", 1, SW_Frame);
 
 		select_modulation(4);
 	}
@@ -363,8 +377,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		play_song = 1;
 		pause_song = 0;
@@ -380,8 +394,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &pause_up, 523, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		play_song = 0;
 		pause_song = 0;
@@ -396,15 +410,15 @@ if (event == 1) {	//down event
 		BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		play_song = 0;
 		pause_song = 1;
 		stop_song = 0;
 		prev_song = 0;
 		next_song = 0;
-	} else if (x_mouse >= 250 && x_mouse <= (250 + back.width)
+	} else if (x_mouse >= 265 && x_mouse <= (265 + back.width)
 			&& y_mouse >= 177 && y_mouse <= (177 + back.height)) {
 		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &stop_up, 404, 45, BLACK_24);
@@ -412,15 +426,15 @@ if (event == 1) {	//down event
 		BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		play_song = 0;
 		pause_song = 0;
 		stop_song = 0;
 		prev_song = 1;
 		next_song = 0;
-	}  else if (x_mouse >= 570 && x_mouse <= (570 + forward.width)
+	}  else if (x_mouse >= 575 && x_mouse <= (575 + forward.width)
 			&& y_mouse >= 177 && y_mouse <= (177 + forward.height)) {
 		DispIMAGE_from_gimp(SW_Frame, &play_up, 296, 45, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &stop_up, 404, 45, BLACK_24);
@@ -442,8 +456,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &back_down, 333, 177,
 		BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_up, 512, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		freq_reader -= FREQ_READER_INCREMENT;
 		if (freq_reader < FREQ_READER_INCREMENT) {
@@ -458,8 +472,8 @@ if (event == 1) {	//down event
 		DispIMAGE_from_gimp(SW_Frame, &back_up, 333, 177, BLACK_24);
 		DispIMAGE_from_gimp(SW_Frame, &ford_down, 512, 177,
 		BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &back, 250, 177, BLACK_24);
-		DispIMAGE_from_gimp(SW_Frame, &forward, 570, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &back, 265, 177, BLACK_24);
+		DispIMAGE_from_gimp(SW_Frame, &forward, 575, 177, BLACK_24);
 
 		freq_reader += FREQ_READER_INCREMENT;
 		if (freq_reader > FREQ_READER_MAX) {
