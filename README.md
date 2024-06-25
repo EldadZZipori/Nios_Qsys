@@ -18,7 +18,7 @@ In this lab we use NIOS and a Direct Digital Synthesis module to display differe
     - Synchronize data from slow clock to fast clock ✔️
     - Synchronize data from fast clock to slow clock ✔️
     - Allow chaning colors of buttons ✔️
-    - Music [in progress]
+    - Music ✔️
 
 # Important location
     - Signal Tap
