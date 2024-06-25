@@ -36,47 +36,33 @@ In this lab we use NIOS and a Direct Digital Synthesis module to display differe
 
 # System level diagram  
 
-![System level diagram](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/ksa_system_level_diagram.png)
+![System level diagram](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/system_diagram.png)
 
 # Simulations
+### LFSR Simulation
+![ASK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/LFSR_simulation.png)
+### ASK Modulator Simulation
+![ASK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/ask_simulation.png)
 
-### Assign data to RAM (S) by index
-![Assign By Index FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/task_1_annotated_simulation.png)
+### BSPK Modulator Simulation
+![BSPK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/bspk_simulation.png)
 
 
-### Synchronizing switches for secret key
-![Switches Sync](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/switches_fsm_annotated_simulation.png)
+### PQSK Modulator Simulation
+![PQSK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/pqsk_simulation.png)
 
+### Fast Clock to Slow Clock Data Transfer Simulation
+![Fast to Slow Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/fast_to_slow_simulation.png)
 
-### Shuffling RAM (S) data 
-![Shuffle FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/shuffle_fsm_annotated_simulation.png)
+### Slow Clock to Fast Clock Data Transfer Simulation
+![Slow to Fast Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/slow_to_fast_simulation.png)
 
-### Reading ROM (D) data 
-![ROM Reader](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/rom_reader_annotated_simulation.png)
-
-### Decrypting message
-![Decrypt Message](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/decryption_fsm_annotated_simulation.png)
-
-### Determine Valid Message 
-![Determine 1](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/determine_valid_message_annotated_simulation_1.png)
-
-![Determine 2](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/determine_valid_message_annotated_simulation_2.png)
-
-### Linear Feedback Shift Register 
-![LFSR](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/4_bit_lfsr_annotated_simulation.png)
 # SignalTap (signal analyzer)
+### Modulated and Selected Waves SignalTap
+![Modulated Selected SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/signal_modulation_selection_signalTap.png)
 
-### Decrypted data RAM writer
-![DE Writer FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/de_writer_fsm_signal_tap.png)
+### PQSK SignalTap
+![PQSK SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/pqsk_singalTap.png)
 
-### Decryption (third loop) FSM
-![Decryption FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/decryption_fsm_signal_tap.png)
-
-### ROM data reader
-![ROM Reader FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/rom_reader_signal_tap_new.png)
-
-### Timing manager of complete algorithem (all three loops)
-![Time machine FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/time_machine_fsm_signal_tap.png)
-
-### Full Decryption Core
-![Decryption Core FSM](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/four_cores_operation_signal_tap_new.png)
+### Fast to Slow Data Transfer SignalTap
+![Fast to Slow SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/fast_to_slow_signalTap.png)

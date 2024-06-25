@@ -1,32 +1,32 @@
-# vsim -gui -l msim_transcript lfsr_tb 
-# Start time: 07:42:35 on Jun 20,2024
-# ** Error: (vsim-3170) Could not find 'lfsr_tb'.
-#         Searched libraries:
-#             C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/work
-# Error loading design
-# End time: 07:42:36 on Jun 20,2024, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vsim -gui -l msim_transcript LFSR_tb
-# vsim -gui -l msim_transcript LFSR_tb 
-# Start time: 07:42:55 on Jun 20,2024
+# vsim -gui -l msim_transcript work.LFSR_tb 
+# Start time: 20:04:25 on Jun 24,2024
 # Loading sv_std.std
 # Loading work.LFSR_tb
 # Loading work.LFSR
+# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv(8): [PCDPC] - Port size (6) does not match connection size (5) for port 'current_value'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /LFSR_tb/LFSR_inst File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv
 add wave -position insertpoint  \
+sim:/LFSR_tb/CLOCK_tb \
+sim:/LFSR_tb/reset_tb \
 sim:/LFSR_tb/lfsr_counter_tb
+run
+run
+run
+run
+run
+run
+run
 # Compile of LFSR.sv was successful.
 # Compile of LFSR_tb.sv was successful.
 # 2 compiles, 0 failed with no errors.
 restart -f
 # Loading work.LFSR_tb
 # Loading work.LFSR
-# ** Warning: (vsim-3015) C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv(8): [PCDPC] - Port size (6) does not match connection size (5) for port 'current_value'. The port definition is at: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv(17).
-#    Time: 0 ps  Iteration: 0  Instance: /LFSR_tb/LFSR_inst File: C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 run
 run
 run
 run
-run
-run
-# End time: 07:44:44 on Jun 20,2024, Elapsed time: 0:01:49
-# Errors: 0, Warnings: 1

@@ -4,56 +4,56 @@
 
 `timescale 1 ps / 1 ps
 module DE1_SoC_QSYS (
-		output wire [31:0] audio2fifo_0_data_divfrec_export,                  //                  audio2fifo_0_data_divfrec.export
-		input  wire        audio2fifo_0_empty_export,                         //                         audio2fifo_0_empty.export
-		input  wire        audio2fifo_0_fifo_full_export,                     //                     audio2fifo_0_fifo_full.export
-		input  wire [11:0] audio2fifo_0_fifo_used_export,                     //                     audio2fifo_0_fifo_used.export
-		output wire [31:0] audio2fifo_0_out_data_audio_export,                //                audio2fifo_0_out_data_audio.export
-		output wire        audio2fifo_0_out_pause_export,                     //                     audio2fifo_0_out_pause.export
-		output wire        audio2fifo_0_out_stop_export,                      //                      audio2fifo_0_out_stop.export
-		output wire        audio2fifo_0_wrclk_export,                         //                         audio2fifo_0_wrclk.export
-		output wire        audio2fifo_0_wrreq_export,                         //                         audio2fifo_0_wrreq.export
-		output wire        audio_sel_export,                                  //                                  audio_sel.export
-		input  wire        clk_clk,                                           //                                        clk.clk
-		output wire        clk_25_out_clk,                                    //                                 clk_25_out.clk
-		output wire        clk_sdram_clk,                                     //                                  clk_sdram.clk
-		output wire [7:0]  color_selector_export,                             //                             color_selector.export
-		output wire [31:0] dds_increment_external_connection_export,          //          dds_increment_external_connection.export
-		output wire [31:0] div_freq_export,                                   //                                   div_freq.export
-		input  wire [3:0]  key_external_connection_export,                    //                    key_external_connection.export
-		input  wire [31:0] keyboard_keys_export,                              //                              keyboard_keys.export
-		input  wire        lfsr_clk_interrupt_gen_external_connection_export, // lfsr_clk_interrupt_gen_external_connection.export
-		input  wire [31:0] lfsr_val_external_connection_export,               //               lfsr_val_external_connection.export
-		output wire [3:0]  modulation_selector_export,                        //                        modulation_selector.export
-		input  wire [31:0] mouse_pos_export,                                  //                                  mouse_pos.export
-		output wire        pll_locked_export,                                 //                                 pll_locked.export
-		input  wire        reset_reset_n,                                     //                                      reset.reset_n
-		output wire [12:0] sdram_wire_addr,                                   //                                 sdram_wire.addr
-		output wire [1:0]  sdram_wire_ba,                                     //                                           .ba
-		output wire        sdram_wire_cas_n,                                  //                                           .cas_n
-		output wire        sdram_wire_cke,                                    //                                           .cke
-		output wire        sdram_wire_cs_n,                                   //                                           .cs_n
-		inout  wire [15:0] sdram_wire_dq,                                     //                                           .dq
-		output wire [1:0]  sdram_wire_dqm,                                    //                                           .dqm
-		output wire        sdram_wire_ras_n,                                  //                                           .ras_n
-		output wire        sdram_wire_we_n,                                   //                                           .we_n
-		output wire [7:0]  signal_selector_export,                            //                            signal_selector.export
-		input  wire        vga_alt_vip_itc_0_clocked_video_vid_clk,           //            vga_alt_vip_itc_0_clocked_video.vid_clk
-		output wire [23:0] vga_alt_vip_itc_0_clocked_video_vid_data,          //                                           .vid_data
-		output wire        vga_alt_vip_itc_0_clocked_video_underflow,         //                                           .underflow
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_datavalid,     //                                           .vid_datavalid
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_v_sync,        //                                           .vid_v_sync
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_h_sync,        //                                           .vid_h_sync
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_f,             //                                           .vid_f
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_h,             //                                           .vid_h
-		output wire        vga_alt_vip_itc_0_clocked_video_vid_v,             //                                           .vid_v
-		output wire        vga_vga_clk_clk                                    //                                vga_vga_clk.clk
+		output wire [31:0] audio2fifo_0_data_divfrec_export,              //       audio2fifo_0_data_divfrec.export
+		input  wire        audio2fifo_0_empty_export,                     //              audio2fifo_0_empty.export
+		input  wire        audio2fifo_0_fifo_full_export,                 //          audio2fifo_0_fifo_full.export
+		input  wire [11:0] audio2fifo_0_fifo_used_export,                 //          audio2fifo_0_fifo_used.export
+		output wire [31:0] audio2fifo_0_out_data_audio_export,            //     audio2fifo_0_out_data_audio.export
+		output wire        audio2fifo_0_out_pause_export,                 //          audio2fifo_0_out_pause.export
+		output wire        audio2fifo_0_out_stop_export,                  //           audio2fifo_0_out_stop.export
+		output wire        audio2fifo_0_wrclk_export,                     //              audio2fifo_0_wrclk.export
+		output wire        audio2fifo_0_wrreq_export,                     //              audio2fifo_0_wrreq.export
+		output wire        audio_sel_export,                              //                       audio_sel.export
+		input  wire        clk_clk,                                       //                             clk.clk
+		output wire        clk_25_out_clk,                                //                      clk_25_out.clk
+		output wire        clk_sdram_clk,                                 //                       clk_sdram.clk
+		output wire [3:0]  color_selector_export,                         //                  color_selector.export
+		output wire [31:0] dds_increment_export,                          //                   dds_increment.export
+		output wire [31:0] div_freq_export,                               //                        div_freq.export
+		input  wire [3:0]  key_external_connection_export,                //         key_external_connection.export
+		input  wire [31:0] keyboard_keys_export,                          //                   keyboard_keys.export
+		input  wire        lfsr_clk_interrupt_gen_export,                 //          lfsr_clk_interrupt_gen.export
+		input  wire [31:0] lfsr_val_export,                               //                        lfsr_val.export
+		output wire [3:0]  modulation_selector_export,                    //             modulation_selector.export
+		input  wire [31:0] mouse_pos_export,                              //                       mouse_pos.export
+		output wire        pll_locked_export,                             //                      pll_locked.export
+		input  wire        reset_reset_n,                                 //                           reset.reset_n
+		output wire [12:0] sdram_wire_addr,                               //                      sdram_wire.addr
+		output wire [1:0]  sdram_wire_ba,                                 //                                .ba
+		output wire        sdram_wire_cas_n,                              //                                .cas_n
+		output wire        sdram_wire_cke,                                //                                .cke
+		output wire        sdram_wire_cs_n,                               //                                .cs_n
+		inout  wire [15:0] sdram_wire_dq,                                 //                                .dq
+		output wire [1:0]  sdram_wire_dqm,                                //                                .dqm
+		output wire        sdram_wire_ras_n,                              //                                .ras_n
+		output wire        sdram_wire_we_n,                               //                                .we_n
+		output wire [7:0]  signal_selector_export,                        //                 signal_selector.export
+		input  wire        vga_alt_vip_itc_0_clocked_video_vid_clk,       // vga_alt_vip_itc_0_clocked_video.vid_clk
+		output wire [23:0] vga_alt_vip_itc_0_clocked_video_vid_data,      //                                .vid_data
+		output wire        vga_alt_vip_itc_0_clocked_video_underflow,     //                                .underflow
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_datavalid, //                                .vid_datavalid
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_v_sync,    //                                .vid_v_sync
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_h_sync,    //                                .vid_h_sync
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_f,         //                                .vid_f
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_h,         //                                .vid_h
+		output wire        vga_alt_vip_itc_0_clocked_video_vid_v,         //                                .vid_v
+		output wire        vga_vga_clk_clk                                //                     vga_vga_clk.clk
 	);
 
 	wire         pll_outclk0_clk;                                           // pll:outclk_0 -> [audio:clk_clk, irq_synchronizer:receiver_clk, mm_interconnect_0:pll_outclk0_clk, rst_controller:clk, sdram:clk, vga:nios_clk_clk]
 	wire  [31:0] cpu_data_master_readdata;                                  // mm_interconnect_0:cpu_data_master_readdata -> cpu:d_readdata
 	wire         cpu_data_master_waitrequest;                               // mm_interconnect_0:cpu_data_master_waitrequest -> cpu:d_waitrequest
-	wire         cpu_data_master_debugaccess;                               // cpu:jtag_debug_module_debugaccess_to_roms -> mm_interconnect_0:cpu_data_master_debugaccess
+	wire         cpu_data_master_debugaccess;                               // cpu:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:cpu_data_master_debugaccess
 	wire  [27:0] cpu_data_master_address;                                   // cpu:d_address -> mm_interconnect_0:cpu_data_master_address
 	wire   [3:0] cpu_data_master_byteenable;                                // cpu:d_byteenable -> mm_interconnect_0:cpu_data_master_byteenable
 	wire         cpu_data_master_read;                                      // cpu:d_read -> mm_interconnect_0:cpu_data_master_read
@@ -85,20 +85,20 @@ module DE1_SoC_QSYS (
 	wire   [1:0] mm_interconnect_0_audio_data_fregen_s1_address;            // mm_interconnect_0:audio_data_fregen_s1_address -> audio:data_fregen_s1_address
 	wire         mm_interconnect_0_audio_data_fregen_s1_write;              // mm_interconnect_0:audio_data_fregen_s1_write -> audio:data_fregen_s1_write_n
 	wire  [31:0] mm_interconnect_0_audio_data_fregen_s1_writedata;          // mm_interconnect_0:audio_data_fregen_s1_writedata -> audio:data_fregen_s1_writedata
+	wire  [31:0] mm_interconnect_0_cpu_debug_mem_slave_readdata;            // cpu:debug_mem_slave_readdata -> mm_interconnect_0:cpu_debug_mem_slave_readdata
+	wire         mm_interconnect_0_cpu_debug_mem_slave_waitrequest;         // cpu:debug_mem_slave_waitrequest -> mm_interconnect_0:cpu_debug_mem_slave_waitrequest
+	wire         mm_interconnect_0_cpu_debug_mem_slave_debugaccess;         // mm_interconnect_0:cpu_debug_mem_slave_debugaccess -> cpu:debug_mem_slave_debugaccess
+	wire   [8:0] mm_interconnect_0_cpu_debug_mem_slave_address;             // mm_interconnect_0:cpu_debug_mem_slave_address -> cpu:debug_mem_slave_address
+	wire         mm_interconnect_0_cpu_debug_mem_slave_read;                // mm_interconnect_0:cpu_debug_mem_slave_read -> cpu:debug_mem_slave_read
+	wire   [3:0] mm_interconnect_0_cpu_debug_mem_slave_byteenable;          // mm_interconnect_0:cpu_debug_mem_slave_byteenable -> cpu:debug_mem_slave_byteenable
+	wire         mm_interconnect_0_cpu_debug_mem_slave_write;               // mm_interconnect_0:cpu_debug_mem_slave_write -> cpu:debug_mem_slave_write
+	wire  [31:0] mm_interconnect_0_cpu_debug_mem_slave_writedata;           // mm_interconnect_0:cpu_debug_mem_slave_writedata -> cpu:debug_mem_slave_writedata
 	wire  [31:0] mm_interconnect_0_audio_empty_s1_readdata;                 // audio:empty_s1_readdata -> mm_interconnect_0:audio_empty_s1_readdata
 	wire   [1:0] mm_interconnect_0_audio_empty_s1_address;                  // mm_interconnect_0:audio_empty_s1_address -> audio:empty_s1_address
 	wire  [31:0] mm_interconnect_0_audio_fifo_full_s1_readdata;             // audio:fifo_full_s1_readdata -> mm_interconnect_0:audio_fifo_full_s1_readdata
 	wire   [1:0] mm_interconnect_0_audio_fifo_full_s1_address;              // mm_interconnect_0:audio_fifo_full_s1_address -> audio:fifo_full_s1_address
 	wire  [31:0] mm_interconnect_0_audio_fifo_used_s1_readdata;             // audio:fifo_used_s1_readdata -> mm_interconnect_0:audio_fifo_used_s1_readdata
 	wire   [1:0] mm_interconnect_0_audio_fifo_used_s1_address;              // mm_interconnect_0:audio_fifo_used_s1_address -> audio:fifo_used_s1_address
-	wire  [31:0] mm_interconnect_0_cpu_jtag_debug_module_readdata;          // cpu:jtag_debug_module_readdata -> mm_interconnect_0:cpu_jtag_debug_module_readdata
-	wire         mm_interconnect_0_cpu_jtag_debug_module_waitrequest;       // cpu:jtag_debug_module_waitrequest -> mm_interconnect_0:cpu_jtag_debug_module_waitrequest
-	wire         mm_interconnect_0_cpu_jtag_debug_module_debugaccess;       // mm_interconnect_0:cpu_jtag_debug_module_debugaccess -> cpu:jtag_debug_module_debugaccess
-	wire   [8:0] mm_interconnect_0_cpu_jtag_debug_module_address;           // mm_interconnect_0:cpu_jtag_debug_module_address -> cpu:jtag_debug_module_address
-	wire         mm_interconnect_0_cpu_jtag_debug_module_read;              // mm_interconnect_0:cpu_jtag_debug_module_read -> cpu:jtag_debug_module_read
-	wire   [3:0] mm_interconnect_0_cpu_jtag_debug_module_byteenable;        // mm_interconnect_0:cpu_jtag_debug_module_byteenable -> cpu:jtag_debug_module_byteenable
-	wire         mm_interconnect_0_cpu_jtag_debug_module_write;             // mm_interconnect_0:cpu_jtag_debug_module_write -> cpu:jtag_debug_module_write
-	wire  [31:0] mm_interconnect_0_cpu_jtag_debug_module_writedata;         // mm_interconnect_0:cpu_jtag_debug_module_writedata -> cpu:jtag_debug_module_writedata
 	wire         mm_interconnect_0_audio_out_data_audio_s1_chipselect;      // mm_interconnect_0:audio_out_data_audio_s1_chipselect -> audio:out_data_audio_s1_chipselect
 	wire  [31:0] mm_interconnect_0_audio_out_data_audio_s1_readdata;        // audio:out_data_audio_s1_readdata -> mm_interconnect_0:audio_out_data_audio_s1_readdata
 	wire   [1:0] mm_interconnect_0_audio_out_data_audio_s1_address;         // mm_interconnect_0:audio_out_data_audio_s1_address -> audio:out_data_audio_s1_address
@@ -193,14 +193,14 @@ module DE1_SoC_QSYS (
 	wire         irq_mapper_receiver2_irq;                                  // timer:irq -> irq_mapper:receiver2_irq
 	wire         irq_mapper_receiver3_irq;                                  // key:irq -> irq_mapper:receiver3_irq
 	wire         irq_mapper_receiver4_irq;                                  // lfsr_clk_interrupt_gen:irq -> irq_mapper:receiver4_irq
-	wire  [31:0] cpu_d_irq_irq;                                             // irq_mapper:sender_irq -> cpu:d_irq
+	wire  [31:0] cpu_irq_irq;                                               // irq_mapper:sender_irq -> cpu:irq
 	wire         irq_mapper_receiver0_irq;                                  // irq_synchronizer:sender_irq -> irq_mapper:receiver0_irq
 	wire   [0:0] irq_synchronizer_receiver_irq;                             // vga:alt_vip_vfr_0_interrupt_sender_irq -> irq_synchronizer:receiver_irq
 	wire         rst_controller_reset_out_reset;                            // rst_controller:reset_out -> [audio:reset_reset_n, irq_synchronizer:receiver_reset, mm_interconnect_0:audio_reset_reset_bridge_in_reset_reset, mm_interconnect_0:vga_nios_clk_reset_reset_bridge_in_reset_reset, sdram:reset_n]
-	wire         rst_controller_001_reset_out_reset;                        // rst_controller_001:reset_out -> [audio_sel:reset_n, color_selector:reset_n, dds_increment:reset_n, div_freq:reset_n, jtag_uart:rst_n, key:reset_n, lfsr_val:reset_n, mm_interconnect_0:jtag_uart_reset_reset_bridge_in_reset_reset, modulation_selector:reset_n, signal_selector:reset_n, sysid_qsys:reset_n, timer:reset_n]
-	wire         rst_controller_002_reset_out_reset;                        // rst_controller_002:reset_out -> [cpu:reset_n, irq_mapper:reset, irq_synchronizer:sender_reset, lfsr_clk_interrupt_gen:reset_n, mm_interconnect_0:cpu_reset_n_reset_bridge_in_reset_reset, rst_translator:in_reset]
+	wire         rst_controller_001_reset_out_reset;                        // rst_controller_001:reset_out -> [audio_sel:reset_n, color_selector:reset_n, dds_increment:reset_n, div_freq:reset_n, jtag_uart:rst_n, key:reset_n, lfsr_clk_interrupt_gen:reset_n, lfsr_val:reset_n, mm_interconnect_0:jtag_uart_reset_reset_bridge_in_reset_reset, modulation_selector:reset_n, signal_selector:reset_n, sysid_qsys:reset_n, timer:reset_n]
+	wire         rst_controller_002_reset_out_reset;                        // rst_controller_002:reset_out -> [cpu:reset_n, irq_mapper:reset, irq_synchronizer:sender_reset, mm_interconnect_0:cpu_reset_reset_bridge_in_reset_reset, rst_translator:in_reset]
 	wire         rst_controller_002_reset_out_reset_req;                    // rst_controller_002:reset_req -> [cpu:reset_req, rst_translator:reset_req_in]
-	wire         cpu_jtag_debug_module_reset_reset;                         // cpu:jtag_debug_module_resetrequest -> rst_controller_002:reset_in1
+	wire         cpu_debug_reset_request_reset;                             // cpu:debug_reset_request -> rst_controller_002:reset_in1
 	wire         rst_controller_003_reset_out_reset;                        // rst_controller_003:reset_out -> [keyboard_keys:reset_n, mm_interconnect_0:keyboard_keys_reset_reset_bridge_in_reset_reset]
 	wire         rst_controller_004_reset_out_reset;                        // rst_controller_004:reset_out -> [mm_interconnect_0:mouse_pos_reset_reset_bridge_in_reset_reset, mouse_pos:reset_n]
 
@@ -277,34 +277,34 @@ module DE1_SoC_QSYS (
 	);
 
 	DE1_SoC_QSYS_cpu cpu (
-		.clk                                   (clk_clk),                                             //                       clk.clk
-		.reset_n                               (~rst_controller_002_reset_out_reset),                 //                   reset_n.reset_n
-		.reset_req                             (rst_controller_002_reset_out_reset_req),              //                          .reset_req
-		.d_address                             (cpu_data_master_address),                             //               data_master.address
-		.d_byteenable                          (cpu_data_master_byteenable),                          //                          .byteenable
-		.d_read                                (cpu_data_master_read),                                //                          .read
-		.d_readdata                            (cpu_data_master_readdata),                            //                          .readdata
-		.d_waitrequest                         (cpu_data_master_waitrequest),                         //                          .waitrequest
-		.d_write                               (cpu_data_master_write),                               //                          .write
-		.d_writedata                           (cpu_data_master_writedata),                           //                          .writedata
-		.d_readdatavalid                       (cpu_data_master_readdatavalid),                       //                          .readdatavalid
-		.jtag_debug_module_debugaccess_to_roms (cpu_data_master_debugaccess),                         //                          .debugaccess
-		.i_address                             (cpu_instruction_master_address),                      //        instruction_master.address
-		.i_read                                (cpu_instruction_master_read),                         //                          .read
-		.i_readdata                            (cpu_instruction_master_readdata),                     //                          .readdata
-		.i_waitrequest                         (cpu_instruction_master_waitrequest),                  //                          .waitrequest
-		.i_readdatavalid                       (cpu_instruction_master_readdatavalid),                //                          .readdatavalid
-		.d_irq                                 (cpu_d_irq_irq),                                       //                     d_irq.irq
-		.jtag_debug_module_resetrequest        (cpu_jtag_debug_module_reset_reset),                   //   jtag_debug_module_reset.reset
-		.jtag_debug_module_address             (mm_interconnect_0_cpu_jtag_debug_module_address),     //         jtag_debug_module.address
-		.jtag_debug_module_byteenable          (mm_interconnect_0_cpu_jtag_debug_module_byteenable),  //                          .byteenable
-		.jtag_debug_module_debugaccess         (mm_interconnect_0_cpu_jtag_debug_module_debugaccess), //                          .debugaccess
-		.jtag_debug_module_read                (mm_interconnect_0_cpu_jtag_debug_module_read),        //                          .read
-		.jtag_debug_module_readdata            (mm_interconnect_0_cpu_jtag_debug_module_readdata),    //                          .readdata
-		.jtag_debug_module_waitrequest         (mm_interconnect_0_cpu_jtag_debug_module_waitrequest), //                          .waitrequest
-		.jtag_debug_module_write               (mm_interconnect_0_cpu_jtag_debug_module_write),       //                          .write
-		.jtag_debug_module_writedata           (mm_interconnect_0_cpu_jtag_debug_module_writedata),   //                          .writedata
-		.no_ci_readra                          ()                                                     // custom_instruction_master.readra
+		.clk                                 (clk_clk),                                           //                       clk.clk
+		.reset_n                             (~rst_controller_002_reset_out_reset),               //                     reset.reset_n
+		.reset_req                           (rst_controller_002_reset_out_reset_req),            //                          .reset_req
+		.d_address                           (cpu_data_master_address),                           //               data_master.address
+		.d_byteenable                        (cpu_data_master_byteenable),                        //                          .byteenable
+		.d_read                              (cpu_data_master_read),                              //                          .read
+		.d_readdata                          (cpu_data_master_readdata),                          //                          .readdata
+		.d_waitrequest                       (cpu_data_master_waitrequest),                       //                          .waitrequest
+		.d_write                             (cpu_data_master_write),                             //                          .write
+		.d_writedata                         (cpu_data_master_writedata),                         //                          .writedata
+		.d_readdatavalid                     (cpu_data_master_readdatavalid),                     //                          .readdatavalid
+		.debug_mem_slave_debugaccess_to_roms (cpu_data_master_debugaccess),                       //                          .debugaccess
+		.i_address                           (cpu_instruction_master_address),                    //        instruction_master.address
+		.i_read                              (cpu_instruction_master_read),                       //                          .read
+		.i_readdata                          (cpu_instruction_master_readdata),                   //                          .readdata
+		.i_waitrequest                       (cpu_instruction_master_waitrequest),                //                          .waitrequest
+		.i_readdatavalid                     (cpu_instruction_master_readdatavalid),              //                          .readdatavalid
+		.irq                                 (cpu_irq_irq),                                       //                       irq.irq
+		.debug_reset_request                 (cpu_debug_reset_request_reset),                     //       debug_reset_request.reset
+		.debug_mem_slave_address             (mm_interconnect_0_cpu_debug_mem_slave_address),     //           debug_mem_slave.address
+		.debug_mem_slave_byteenable          (mm_interconnect_0_cpu_debug_mem_slave_byteenable),  //                          .byteenable
+		.debug_mem_slave_debugaccess         (mm_interconnect_0_cpu_debug_mem_slave_debugaccess), //                          .debugaccess
+		.debug_mem_slave_read                (mm_interconnect_0_cpu_debug_mem_slave_read),        //                          .read
+		.debug_mem_slave_readdata            (mm_interconnect_0_cpu_debug_mem_slave_readdata),    //                          .readdata
+		.debug_mem_slave_waitrequest         (mm_interconnect_0_cpu_debug_mem_slave_waitrequest), //                          .waitrequest
+		.debug_mem_slave_write               (mm_interconnect_0_cpu_debug_mem_slave_write),       //                          .write
+		.debug_mem_slave_writedata           (mm_interconnect_0_cpu_debug_mem_slave_writedata),   //                          .writedata
+		.dummy_ci_port                       ()                                                   // custom_instruction_master.readra
 	);
 
 	DE1_SoC_QSYS_dds_increment dds_increment (
@@ -315,7 +315,7 @@ module DE1_SoC_QSYS (
 		.writedata  (mm_interconnect_0_dds_increment_s1_writedata),  //                    .writedata
 		.chipselect (mm_interconnect_0_dds_increment_s1_chipselect), //                    .chipselect
 		.readdata   (mm_interconnect_0_dds_increment_s1_readdata),   //                    .readdata
-		.out_port   (dds_increment_external_connection_export)       // external_connection.export
+		.out_port   (dds_increment_export)                           // external_connection.export
 	);
 
 	DE1_SoC_QSYS_dds_increment div_freq (
@@ -364,13 +364,13 @@ module DE1_SoC_QSYS (
 
 	DE1_SoC_QSYS_lfsr_clk_interrupt_gen lfsr_clk_interrupt_gen (
 		.clk        (clk_clk),                                                //                 clk.clk
-		.reset_n    (~rst_controller_002_reset_out_reset),                    //               reset.reset_n
+		.reset_n    (~rst_controller_001_reset_out_reset),                    //               reset.reset_n
 		.address    (mm_interconnect_0_lfsr_clk_interrupt_gen_s1_address),    //                  s1.address
 		.write_n    (~mm_interconnect_0_lfsr_clk_interrupt_gen_s1_write),     //                    .write_n
 		.writedata  (mm_interconnect_0_lfsr_clk_interrupt_gen_s1_writedata),  //                    .writedata
 		.chipselect (mm_interconnect_0_lfsr_clk_interrupt_gen_s1_chipselect), //                    .chipselect
 		.readdata   (mm_interconnect_0_lfsr_clk_interrupt_gen_s1_readdata),   //                    .readdata
-		.in_port    (lfsr_clk_interrupt_gen_external_connection_export),      // external_connection.export
+		.in_port    (lfsr_clk_interrupt_gen_export),                          // external_connection.export
 		.irq        (irq_mapper_receiver4_irq)                                //                 irq.irq
 	);
 
@@ -379,10 +379,10 @@ module DE1_SoC_QSYS (
 		.reset_n  (~rst_controller_001_reset_out_reset),    //               reset.reset_n
 		.address  (mm_interconnect_0_lfsr_val_s1_address),  //                  s1.address
 		.readdata (mm_interconnect_0_lfsr_val_s1_readdata), //                    .readdata
-		.in_port  (lfsr_val_external_connection_export)     // external_connection.export
+		.in_port  (lfsr_val_export)                         // external_connection.export
 	);
 
-	DE1_SoC_QSYS_modulation_selector modulation_selector (
+	DE1_SoC_QSYS_color_selector modulation_selector (
 		.clk        (clk_clk),                                             //                 clk.clk
 		.reset_n    (~rst_controller_001_reset_out_reset),                 //               reset.reset_n
 		.address    (mm_interconnect_0_modulation_selector_s1_address),    //                  s1.address
@@ -433,7 +433,7 @@ module DE1_SoC_QSYS (
 		.zs_we_n        (sdram_wire_we_n)                           //      .export
 	);
 
-	DE1_SoC_QSYS_color_selector signal_selector (
+	DE1_SoC_QSYS_signal_selector signal_selector (
 		.clk        (clk_clk),                                         //                 clk.clk
 		.reset_n    (~rst_controller_001_reset_out_reset),             //               reset.reset_n
 		.address    (mm_interconnect_0_signal_selector_s1_address),    //                  s1.address
@@ -497,7 +497,7 @@ module DE1_SoC_QSYS (
 		.pll_outclk2_clk                                 (clk_25_out_clk),                                            //                               pll_outclk2.clk
 		.vga_clk_bridge_out_out_clk_1_clk                (vga_vga_clk_clk),                                           //              vga_clk_bridge_out_out_clk_1.clk
 		.audio_reset_reset_bridge_in_reset_reset         (rst_controller_reset_out_reset),                            //         audio_reset_reset_bridge_in_reset.reset
-		.cpu_reset_n_reset_bridge_in_reset_reset         (rst_controller_002_reset_out_reset),                        //         cpu_reset_n_reset_bridge_in_reset.reset
+		.cpu_reset_reset_bridge_in_reset_reset           (rst_controller_002_reset_out_reset),                        //           cpu_reset_reset_bridge_in_reset.reset
 		.jtag_uart_reset_reset_bridge_in_reset_reset     (rst_controller_001_reset_out_reset),                        //     jtag_uart_reset_reset_bridge_in_reset.reset
 		.keyboard_keys_reset_reset_bridge_in_reset_reset (rst_controller_003_reset_out_reset),                        // keyboard_keys_reset_reset_bridge_in_reset.reset
 		.mouse_pos_reset_reset_bridge_in_reset_reset     (rst_controller_004_reset_out_reset),                        //     mouse_pos_reset_reset_bridge_in_reset.reset
@@ -568,14 +568,14 @@ module DE1_SoC_QSYS (
 		.color_selector_s1_readdata                      (mm_interconnect_0_color_selector_s1_readdata),              //                                          .readdata
 		.color_selector_s1_writedata                     (mm_interconnect_0_color_selector_s1_writedata),             //                                          .writedata
 		.color_selector_s1_chipselect                    (mm_interconnect_0_color_selector_s1_chipselect),            //                                          .chipselect
-		.cpu_jtag_debug_module_address                   (mm_interconnect_0_cpu_jtag_debug_module_address),           //                     cpu_jtag_debug_module.address
-		.cpu_jtag_debug_module_write                     (mm_interconnect_0_cpu_jtag_debug_module_write),             //                                          .write
-		.cpu_jtag_debug_module_read                      (mm_interconnect_0_cpu_jtag_debug_module_read),              //                                          .read
-		.cpu_jtag_debug_module_readdata                  (mm_interconnect_0_cpu_jtag_debug_module_readdata),          //                                          .readdata
-		.cpu_jtag_debug_module_writedata                 (mm_interconnect_0_cpu_jtag_debug_module_writedata),         //                                          .writedata
-		.cpu_jtag_debug_module_byteenable                (mm_interconnect_0_cpu_jtag_debug_module_byteenable),        //                                          .byteenable
-		.cpu_jtag_debug_module_waitrequest               (mm_interconnect_0_cpu_jtag_debug_module_waitrequest),       //                                          .waitrequest
-		.cpu_jtag_debug_module_debugaccess               (mm_interconnect_0_cpu_jtag_debug_module_debugaccess),       //                                          .debugaccess
+		.cpu_debug_mem_slave_address                     (mm_interconnect_0_cpu_debug_mem_slave_address),             //                       cpu_debug_mem_slave.address
+		.cpu_debug_mem_slave_write                       (mm_interconnect_0_cpu_debug_mem_slave_write),               //                                          .write
+		.cpu_debug_mem_slave_read                        (mm_interconnect_0_cpu_debug_mem_slave_read),                //                                          .read
+		.cpu_debug_mem_slave_readdata                    (mm_interconnect_0_cpu_debug_mem_slave_readdata),            //                                          .readdata
+		.cpu_debug_mem_slave_writedata                   (mm_interconnect_0_cpu_debug_mem_slave_writedata),           //                                          .writedata
+		.cpu_debug_mem_slave_byteenable                  (mm_interconnect_0_cpu_debug_mem_slave_byteenable),          //                                          .byteenable
+		.cpu_debug_mem_slave_waitrequest                 (mm_interconnect_0_cpu_debug_mem_slave_waitrequest),         //                                          .waitrequest
+		.cpu_debug_mem_slave_debugaccess                 (mm_interconnect_0_cpu_debug_mem_slave_debugaccess),         //                                          .debugaccess
 		.dds_increment_s1_address                        (mm_interconnect_0_dds_increment_s1_address),                //                          dds_increment_s1.address
 		.dds_increment_s1_write                          (mm_interconnect_0_dds_increment_s1_write),                  //                                          .write
 		.dds_increment_s1_readdata                       (mm_interconnect_0_dds_increment_s1_readdata),               //                                          .readdata
@@ -650,7 +650,7 @@ module DE1_SoC_QSYS (
 		.receiver2_irq (irq_mapper_receiver2_irq),           // receiver2.irq
 		.receiver3_irq (irq_mapper_receiver3_irq),           // receiver3.irq
 		.receiver4_irq (irq_mapper_receiver4_irq),           // receiver4.irq
-		.sender_irq    (cpu_d_irq_irq)                       //    sender.irq
+		.sender_irq    (cpu_irq_irq)                         //    sender.irq
 	);
 
 	altera_irq_clock_crosser #(
@@ -817,7 +817,7 @@ module DE1_SoC_QSYS (
 		.ADAPT_RESET_REQUEST       (0)
 	) rst_controller_002 (
 		.reset_in0      (~reset_reset_n),                         // reset_in0.reset
-		.reset_in1      (cpu_jtag_debug_module_reset_reset),      // reset_in1.reset
+		.reset_in1      (cpu_debug_reset_request_reset),          // reset_in1.reset
 		.clk            (clk_clk),                                //       clk.clk
 		.reset_out      (rst_controller_002_reset_out_reset),     // reset_out.reset
 		.reset_req      (rst_controller_002_reset_out_reset_req), //          .reset_req

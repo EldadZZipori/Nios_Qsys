@@ -261,25 +261,25 @@ R8
 n@generate_@arbitrary_@divided_@clk32
 vLFSR
 R1
-Z13 !s110 1718894620
+Z13 !s110 1719284766
 !i10b 1
 !s100 SCVOdCOXz=Q_]LJ[CIGfT3
-InI[5IPIIIPHkRBGbjUkSB1
+I?AlHjG<C<Ulg6WzE^K0JJ2
 R3
 !s105 LFSR_sv_unit
 S1
 R0
-w1718864347
-8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
-FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv
+w1718864370
+8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv
+FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv
 L0 11
 R4
 r1
 !s85 0
 31
-Z14 !s108 1718894620.000000
-!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/modules/LFSR.sv|
+Z14 !s108 1719284766.000000
+!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim/LFSR.sv|
 !i113 1
 R9
 R8
@@ -288,13 +288,13 @@ vLFSR_tb
 R1
 R13
 !i10b 1
-!s100 Ci?aaLGnVj:BlD>1>?H`O0
-ILBI9W27iFGlggF:D1iIKO2
+!s100 C`EcGZ4O[=FNee[_YEbk52
+Ih5bdjOn2^Rg0T:VjMO^0<3
 R3
 !s105 LFSR_tb_sv_unit
 S1
 R0
-w1718894615
+w1719284758
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/testbenches/LFSR_tb.sv
 L0 1

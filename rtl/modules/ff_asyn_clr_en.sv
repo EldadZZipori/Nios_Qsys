@@ -16,7 +16,7 @@ module ff_asyn_clr_en
 	input 	logic					E,							// Enable input
 	input 	logic[(S-1):0] 	D,							// Data in
 	output 	logic[(S-1):0] 	Q							// Data out
-	
+);
 		always @(posedge CLK, posedge CLR) begin
 			if (CLR) begin
 				Q <= 1'b0;

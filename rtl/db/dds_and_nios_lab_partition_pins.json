@@ -140,6 +140,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "VGA_SYNC_N",
+					"strict" : false
+				},
+				{
 					"name" : "DRAM_ADDR[1]",
 					"strict" : false
 				},
@@ -221,10 +225,6 @@
 				},
 				{
 					"name" : "FPGA_I2C_SCLK",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_SYNC_N",
 					"strict" : false
 				},
 				{

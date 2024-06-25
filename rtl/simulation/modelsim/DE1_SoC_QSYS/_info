@@ -10,155 +10,155 @@ cModel Technology
 Z0 dC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/simulation/modelsim
 valt_vipitc131_common_fifo
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1718894488
+Z2 !s110 1719284625
 !i10b 1
 !s100 HMP:7iQ[7AMT`]PDaTX9>0
 ITc6z1Iom>6V0bE]9ia5Fc0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 alt_vipitc131_common_fifo_v_unit
 S1
 R0
-Z3 w1718856785
+Z4 w1719276047
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_fifo.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_fifo.v
 L0 1
-Z4 OV;L;10.5b;63
+Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1718894488.000000
+Z6 !s108 1719284625.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_fifo.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_fifo.v|
 !i113 1
-Z5 o-sv -work DE1_SoC_QSYS
-Z6 !s92 -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules
-Z7 tCvgOpt 0
+Z7 o-sv -work DE1_SoC_QSYS
+Z8 !s92 -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules
+Z9 tCvgOpt 0
 valt_vipitc131_common_generic_count
 R1
-Z8 !s110 1718894525
+R2
 !i10b 1
 !s100 Z[kBdLFk>AWGKg:M2gnkm1
 Ib9g@zaa2?Vc>e4Jaef2;O1
-R2
+R3
 !s105 alt_vipitc131_common_generic_count_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-Z9 !s108 1718894525.000000
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_generic_count.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipitc131_common_sync
 R1
-R8
+R2
 !i10b 1
 !s100 oADfh@JzMJlO`BG9n@Z`=3
 I7dA38dBK8MeQCS:>Mf>zl3
-R2
+R3
 !s105 alt_vipitc131_common_sync_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_sync.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipitc131_common_trigger_sync
 R1
-R8
+R2
 !i10b 1
 !s100 0CbE0Q7Q05dU7B1o6^G861
 IaO94RSZNT9Jbf?aG6aXSz2
-R2
+R3
 !s105 alt_vipitc131_common_trigger_sync_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_common_trigger_sync.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipitc131_IS2Vid
 R1
-Z10 !s110 1718894531
+Z10 !s110 1719284630
 !i10b 1
 !s100 LLG]akncBL^OH1YVmD3X01
 I6iN57_Z5S=7Q<CPAn6<j10
-R2
+R3
 !s105 alt_vipitc131_IS2Vid_sv_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-Z11 !s108 1718894531.000000
+Z11 !s108 1719284630.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 nalt_vipitc131_@i@s2@vid
 valt_vipitc131_IS2Vid_calculate_mode
 R1
-Z12 !s110 1718894485
+Z12 !s110 1719284624
 !i10b 1
 !s100 0i;FQ@CLKAISfoSB8:XhS1
 IeSRGk`;eOYG3lK<_?;>I03
-R2
+R3
 !s105 alt_vipitc131_IS2Vid_calculate_mode_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-Z13 !s108 1718894485.000000
+Z13 !s108 1719284624.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_calculate_mode.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 nalt_vipitc131_@i@s2@vid_calculate_mode
 valt_vipitc131_IS2Vid_control
 R1
@@ -166,15 +166,15 @@ R12
 !i10b 1
 !s100 GN:PD[12WD=mmKXhXzOWT3
 Iz9bmCLWKSCU8cFE^?RZnE2
-R2
+R3
 !s105 alt_vipitc131_IS2Vid_control_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_control.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_control.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -182,9 +182,9 @@ R13
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_control.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_control.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 nalt_vipitc131_@i@s2@vid_control
 valt_vipitc131_IS2Vid_mode_banks
 R1
@@ -192,15 +192,15 @@ R10
 !i10b 1
 !s100 UIoJ7M:<TGGJ9FMbC;O[32
 IojeDz^3gV19D>oZ2EQAS`1
-R2
+R3
 !s105 alt_vipitc131_IS2Vid_mode_banks_sv_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -208,35 +208,35 @@ R11
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_mode_banks.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 nalt_vipitc131_@i@s2@vid_mode_banks
 valt_vipitc131_IS2Vid_statemachine
 R1
-R12
+R2
 !i10b 1
 !s100 Na9PfeLacQoS0a9]_b^Im1
 IB9k:2A:kg2mIjo6G87;_?1
-R2
+R3
 !s105 alt_vipitc131_IS2Vid_statemachine_v_unit
 S1
 R0
-R3
+R4
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-R13
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipitc131_IS2Vid_statemachine.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 nalt_vipitc131_@i@s2@vid_statemachine
 valt_vipvfr131_common_avalon_mm_slave
 R1
@@ -244,15 +244,15 @@ R12
 !i10b 1
 !s100 lD`G1gVPXf;ZoI@_=4ZR:0
 IAAUNUFXOiJz2`Fg[Zi=ee3
-R2
+R3
 !s105 alt_vipvfr131_common_avalon_mm_slave_v_unit
 S1
 R0
-Z14 w1718856788
+Z14 w1719276049
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -260,16 +260,16 @@ R13
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_avalon_mm_slave.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_common_stream_output
 R1
 R12
 !i10b 1
 !s100 W>1IT^lizeM;13`0;Z2OJ0
 IbLES<ozPATU3Ng<JiDMgc2
-R2
+R3
 !s105 alt_vipvfr131_common_stream_output_v_unit
 S1
 R0
@@ -277,7 +277,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_stream_output.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_stream_output.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -285,16 +285,16 @@ R13
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_stream_output.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_common_stream_output.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_prc
 R1
-R12
+Z15 !s110 1719284623
 !i10b 1
 !s100 :[`e;Fg4gi@2N?XdWcl6=0
 ILE;3adbS;4<o_1BdGYHEB1
-R2
+R3
 !s105 alt_vipvfr131_prc_v_unit
 S1
 R0
@@ -302,24 +302,24 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc.v
 L0 2
-R4
+R5
 r1
 !s85 0
 31
-R13
+Z16 !s108 1719284623.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_prc_core
 R1
 R12
 !i10b 1
 !s100 T<^Hkmb;@_4JlG`UiX=aW2
 In>LKHC8^3odV[M`VHB_l[0
-R2
+R3
 !s105 alt_vipvfr131_prc_core_v_unit
 S1
 R0
@@ -327,7 +327,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_core.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_core.v
 L0 3
-R4
+R5
 r1
 !s85 0
 31
@@ -335,16 +335,16 @@ R13
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_core.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_core.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_prc_read_master
 R1
 R12
 !i10b 1
 !s100 7G?S:@K_CMo80LGTBgSKP3
 I100C<Ik_6NLCilWRC:G:f0
-R2
+R3
 !s105 alt_vipvfr131_prc_read_master_v_unit
 S1
 R0
@@ -352,7 +352,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_read_master.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_read_master.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -360,16 +360,16 @@ R13
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_read_master.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_prc_read_master.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_vfr
 R1
-Z15 !s110 1718894484
+R15
 !i10b 1
 !s100 ]YomoB8jQk95]Z=_9NV6o3
 IBdZD8DAA^o?U^VTZH8oQP1
-R2
+R3
 !s105 alt_vipvfr131_vfr_v_unit
 S1
 R0
@@ -377,24 +377,24 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
-Z16 !s108 1718894484.000000
+R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_vfr_control_packet_encoder
 R1
 R15
 !i10b 1
 !s100 WVfEE@[Ql8[Zk5n];`ijA2
 IJLUS2cCdLL0K>VU=4UR9a1
-R2
+R3
 !s105 alt_vipvfr131_vfr_control_packet_encoder_v_unit
 S1
 R0
@@ -402,7 +402,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -410,16 +410,16 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_control_packet_encoder.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valt_vipvfr131_vfr_controller
 R1
 R15
 !i10b 1
 !s100 Vm;C5:Yi1HaHLieUA9DeK3
 I`DmQ_z<G7F87fa8<FLAjg3
-R2
+R3
 !s105 alt_vipvfr131_vfr_controller_v_unit
 S1
 R0
@@ -427,7 +427,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_controller.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_controller.v
 L0 1
-R4
+R5
 r1
 !s85 0
 31
@@ -435,16 +435,16 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_controller.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/alt_vipvfr131_vfr_controller.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_avalon_sc_fifo
 R1
-Z17 !s110 1718894530
+Z17 !s110 1719284629
 !i10b 1
 !s100 AmIg@HKgzRdiLX?Qo8hRz3
 IADZCEB?ATMgJX:?G:eL2a1
-R2
+R3
 !s105 altera_avalon_sc_fifo_v_unit
 S1
 R0
@@ -452,149 +452,149 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
 Z18 L0 21
-R4
+R5
 r1
 !s85 0
 31
-Z19 !s108 1718894530.000000
+Z19 !s108 1719284629.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_avalon_st_clock_crosser
 R1
-Z20 !s110 1718894529
+Z20 !s110 1719284627
 !i10b 1
 !s100 HXcGESGB1AIK<[k96k8GW3
 IT;BbR2<26GF4<z<73[]7:2
-R2
+R3
 !s105 altera_avalon_st_clock_crosser_v_unit
 S1
 R0
-R14
+Z21 w1719276050
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v
-Z21 L0 22
-R4
+Z22 L0 22
+R5
 r1
 !s85 0
 31
-Z22 !s108 1718894529.000000
+Z23 !s108 1719284627.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_clock_crosser.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_avalon_st_handshake_clock_crosser
 R1
 R20
 !i10b 1
 !s100 f:AU?0BbMgC^cVdTB^k4C0
 Im<DM?T`X1c69iF4:57Si?3
-R2
+R3
 !s105 altera_avalon_st_handshake_clock_crosser_v_unit
 S1
 R0
-R14
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
-Z23 L0 24
-R4
+Z24 L0 24
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_avalon_st_pipeline_base
 R1
 R20
 !i10b 1
 !s100 IZ246NSd;dW2a7WAUFMLa1
 I[`Oa9K^A1JCS3HO]?Q5GC0
-R2
+R3
 !s105 altera_avalon_st_pipeline_base_v_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v
-R21
-R4
+R22
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_avalon_st_pipeline_stage
 R1
 R20
 !i10b 1
 !s100 0[eR^H<[LF9R7ZA?d`HaW2
 IhOD?E]hgbQ`a9S_n;0V:11
-R2
+R3
 !s105 altera_avalon_st_pipeline_stage_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
-R21
-R4
+R22
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_stage.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_irq_clock_crosser
 R1
-!s110 1718894527
+R20
 !i10b 1
 !s100 h4R`cF8cBH7NA_@W;Oa@73
 IF?bVc]A^JNjg5e2LZ4oCL2
-R2
+R3
 !s105 altera_irq_clock_crosser_sv_unit
 S1
 R0
-Z24 w1718856782
+Z25 w1719276038
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv
 R18
-R4
+R5
 r1
 !s85 0
 31
-!s108 1718894527.000000
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_irq_clock_crosser.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_address_alignment
 R1
 R20
 !i10b 1
 !s100 ;A9^i^d]cR@BAQXEG>h_<3
 IV9FKIA@ZoIz8j:O^@m4`<1
-R2
+R3
 !s105 altera_merlin_address_alignment_sv_unit
 S1
 R0
@@ -602,74 +602,74 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv
 L0 26
-R4
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_arb_adder
 R1
-R20
+Z26 !s110 1719284628
 !i10b 1
 !s100 1Jn[a;@5nZmTN?DFKQNzj2
 IiV^oX4P8n2:=SJnhTDgQT2
-R2
-Z25 !s105 altera_merlin_arbitrator_sv_unit
+R3
+Z27 !s105 altera_merlin_arbitrator_sv_unit
 S1
 R0
 R14
-Z26 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
-Z27 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Z28 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Z29 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
 L0 228
-R4
+R5
 r1
 !s85 0
 31
-R22
-Z28 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv|
-Z29 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z30 !s108 1719284628.000000
+Z31 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z32 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_arbitrator
 R1
-R20
+R26
 !i10b 1
 !s100 NQTehjm2fNQROUMUzShGa1
 I9adkaLLa=NZVT<dlO1]W_3
-R2
-R25
+R3
+R27
 S1
 R0
 R14
-R26
-R27
+R28
+R29
 L0 103
-R4
+R5
 r1
 !s85 0
 31
-R22
-R28
-R29
+R30
+R31
+R32
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter
 R1
-R17
+R26
 !i10b 1
 !s100 OCc70X^k:B?GW6i71n`L_3
 IXTNQ^Gc3U@^R>cl4cQRB[3
-R2
+R3
 !s105 altera_merlin_burst_adapter_sv_unit
 S1
 R0
@@ -677,174 +677,174 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv
 R18
-R4
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter_13_1
 R1
 R17
 !i10b 1
 !s100 iQDJAL[b9z>XeokOb35D]1
 Ia]^jc5?^oJ0kIk>CHikCT0
-R2
-Z30 !s105 altera_merlin_burst_adapter_13_1_sv_unit
+R3
+Z33 !s105 altera_merlin_burst_adapter_13_1_sv_unit
 S1
 R0
 R14
-Z31 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
-Z32 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+Z34 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+Z35 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
 L0 264
-R4
+R5
 r1
 !s85 0
 31
-R19
-Z33 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
-Z34 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
+R30
+Z36 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
+Z37 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter_adder
 R1
 R17
 !i10b 1
 !s100 cJB8e]Mn>T^mE[9iEE1jk1
 IA@L7;7Hg`CJKkj@5[SKIe3
-R2
-R30
+R3
+R33
 S1
 R0
 R14
-R31
-R32
+R34
+R35
 L0 55
-R4
+R5
 r1
 !s85 0
 31
-R19
-R33
-R34
+R30
+R36
+R37
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter_burstwrap_increment
 R1
 R17
 !i10b 1
 !s100 ILP^RoOQ^]Ef]XAJeF<SX0
 IHj0^DWC_ezQ5efZD26CN21
-R2
-R30
+R3
+R33
 S1
 R0
 R14
-R31
-R32
-Z35 L0 40
-R4
+R34
+R35
+Z38 L0 40
+R5
 r1
 !s85 0
 31
-R19
-R33
-R34
+R30
+R36
+R37
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter_min
 R1
 R17
 !i10b 1
 !s100 5OK?oF?>S0i7IYQi<IKhS1
 IoWnW;IY;6C=k1oO9<1VWj1
-R2
-R30
+R3
+R33
 S1
 R0
 R14
-R31
-R32
+R34
+R35
 L0 98
-R4
+R5
 r1
 !s85 0
 31
-R19
-R33
-R34
+R30
+R36
+R37
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_adapter_subtractor
 R1
 R17
 !i10b 1
 !s100 3nMfY`gC_:azzfSULAX8f2
 Iclh[`SNjRe`lSmL^?[3dJ2
-R2
-R30
+R3
+R33
 S1
 R0
 R14
-R31
-R32
+R34
+R35
 L0 77
-R4
+R5
 r1
 !s85 0
 31
-R19
-R33
-R34
+R30
+R36
+R37
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_burst_uncompressor
 R1
-R20
+R26
 !i10b 1
 !s100 f1?Rb<=9U?R9LJoHl;7>T3
 IOD9^jjMRb]edFWlZ?D7i_3
-R2
+R3
 !s105 altera_merlin_burst_uncompressor_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv
-R35
-R4
+R38
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_master_agent
 R1
-R10
+R17
 !i10b 1
 !s100 _CJm:YX=>U2LQKH;8=@cb0
 IdKf@cCP[IJ=@;@<cEj=3Q1
-R2
+R3
 !s105 altera_merlin_master_agent_sv_unit
 S1
 R0
@@ -852,24 +852,24 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv
 L0 28
-R4
+R5
 r1
 !s85 0
 31
-R11
+R19
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_agent.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_master_translator
 R1
-R10
+R17
 !i10b 1
 !s100 NdRk@]3fC2C@V7Rm;dQM31
 I[fnB@[?NQZY0H@RSW6k2S0
-R2
+R3
 !s105 altera_merlin_master_translator_sv_unit
 S1
 R0
@@ -877,49 +877,49 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv
 L0 32
-R4
+R5
 r1
 !s85 0
 31
-R11
+R19
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_master_translator.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_slave_agent
 R1
-R10
+R17
 !i10b 1
 !s100 ePZN1d?B062J`OBb?blff3
 I4059d598LR1=aPlKVIf=20
-R2
+R3
 !s105 altera_merlin_slave_agent_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv
-Z36 L0 34
-R4
+Z39 L0 34
+R5
 r1
 !s85 0
 31
-R11
+R19
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_agent.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_slave_translator
 R1
-R10
+R17
 !i10b 1
 !s100 k`9[YAn_dLTkg;GE`mOb61
 IzmE3O]_O5Nh<U4350z5YU0
-R2
+R3
 !s105 altera_merlin_slave_translator_sv_unit
 S1
 R0
@@ -927,24 +927,24 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv
 L0 35
-R4
+R5
 r1
 !s85 0
 31
-R11
+R19
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_slave_translator.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_traffic_limiter
 R1
 R17
 !i10b 1
 !s100 0h4;DR_^c13j]SXILa7d?1
 IJc8_I_cz8f;`lljOYWm6Q0
-R2
+R3
 !s105 altera_merlin_traffic_limiter_sv_unit
 S1
 R0
@@ -952,7 +952,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv
 L0 49
-R4
+R5
 r1
 !s85 0
 31
@@ -960,16 +960,16 @@ R19
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_traffic_limiter.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_merlin_width_adapter
 R1
 R20
 !i10b 1
 !s100 QzdA5DP6CReOTH<9QzODa3
 IPWd9X[<B=m^BI8M[GUmR42
-R2
+R3
 !s105 altera_merlin_width_adapter_sv_unit
 S1
 R0
@@ -977,32 +977,32 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv
 L0 25
-R4
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_width_adapter.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_reset_controller
 R1
 R15
 !i10b 1
 !s100 BY0`7TD<QPSCOO[`H0GM11
 I;[@UX[zlRRj`38alZ4kRE0
-R2
+R3
 !s105 altera_reset_controller_v_unit
 S1
 R0
-R24
+R25
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_controller.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_controller.v
 L0 42
-R4
+R5
 r1
 !s85 0
 31
@@ -1010,24 +1010,24 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_controller.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_controller.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_reset_synchronizer
 R1
 R15
 !i10b 1
 !s100 jGF0G[N3WmCeE44bVz8Kc3
 IPl42<SA@B=PnE0NazHW=G3
-R2
+R3
 !s105 altera_reset_synchronizer_v_unit
 S1
 R0
-R24
+R25
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_synchronizer.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_synchronizer.v
-R23
-R4
+R24
+R5
 r1
 !s85 0
 31
@@ -1035,49 +1035,49 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_synchronizer.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_reset_synchronizer.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 valtera_std_synchronizer_nocut
 R1
 R20
 !i10b 1
 !s100 VXZB9eG5R<c?e0Q]eX?@a3
 I1fO7`0b]_DMcG<E4FnJVm3
-R2
+R3
 !s105 altera_std_synchronizer_nocut_v_unit
 S1
 R0
-R14
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v
 L0 44
-R4
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/altera_std_synchronizer_nocut.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 vDE1_SoC_QSYS
 R1
 R15
 !i10b 1
-!s100 =Cb:`VFUG3FMiDRPj<mGN0
-IXR2>NLP0Qo6Z4ic:DjQRX0
-R2
+!s100 <cRzlC6c5<e3c7JX6EE>b0
+Iji[0lfj]cBKd6fgST]?U_2
+R3
 !s105 DE1_SoC_QSYS_v_unit
 S1
 R0
-w1718856752
+Z40 w1719276015
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.v
 L0 6
-R4
+R5
 r1
 !s85 0
 31
@@ -1085,217 +1085,243 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.v|
 !i113 1
-R5
-!s92 -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis
 R7
+!s92 -sv -work DE1_SoC_QSYS +incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis
+R9
 n@d@e1_@so@c_@q@s@y@s
 vDE1_SoC_QSYS_audio
 R1
-Z37 !s110 1718894526
+Z41 !s110 1719284626
 !i10b 1
 !s100 z4?T<8QaNbF;H1Z[kSca[2
 IMc^3:cc2B;nmo2n1boe]R0
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_v_unit
 S1
 R0
-Z38 w1718856753
+R40
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v
 L0 6
-R4
+R5
 r1
 !s85 0
 31
-Z39 !s108 1718894526.000000
+Z42 !s108 1719284626.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio
 vDE1_SoC_QSYS_audio_DATA_FREGEN
 R1
-R37
+R41
 !i10b 1
 !s100 Q0UW[VCHihKCiAR`FZL:G1
 InKok;DZ6>d0lhaPG]dh[I3
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_DATA_FREGEN_v_unit
 S1
 R0
-R24
+Z43 w1719276039
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_DATA_FREGEN.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio_@d@a@t@a_@f@r@e@g@e@n
 vDE1_SoC_QSYS_audio_EMPTY
 R1
-R37
+R41
 !i10b 1
 !s100 >]6FeY0cBPF:0n25B^Hk;2
 IN^YR3<LL1g;QI4ob7OG9_1
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_EMPTY_v_unit
 S1
 R0
-Z40 w1718856783
+R43
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_EMPTY.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio_@e@m@p@t@y
 vDE1_SoC_QSYS_audio_fifo_used
 R1
-R37
+R41
 !i10b 1
 !s100 HO3^W3^ZhKOmbZ:f3lHbn1
 IgK4CBSi:_@FzMQZVac4[V0
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_fifo_used_v_unit
 S1
 R0
-R40
+R43
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_fifo_used.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio_fifo_used
 vDE1_SoC_QSYS_audio_OUT_PAUSE
 R1
-R37
+R41
 !i10b 1
 !s100 o6:ReZ6aCgMPc21MINUSg0
 I;f2FM`bU5e84LgGoR4d[z2
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_OUT_PAUSE_v_unit
 S1
 R0
-R40
+R43
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_OUT_PAUSE.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio_@o@u@t_@p@a@u@s@e
 vDE1_SoC_QSYS_audio_sel
 R1
-R37
+R41
 !i10b 1
 !s100 O9f_VfKMnUfZ222ak<ol21
 IIJ<M62Po6K_gIW`^n?FS32
-R2
+R3
 !s105 DE1_SoC_QSYS_audio_sel_v_unit
 S1
 R0
-R38
+R40
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_audio_sel.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_audio_sel
 vDE1_SoC_QSYS_color_selector
 R1
-R37
+R41
 !i10b 1
-!s100 AReM:Oe9n?2==i4HgT;XD0
-I0H312TZS3N8W[272L_a:d0
-R2
+!s100 NA<]TUKG`e9H[NNOQnDYg2
+ITR:Wc6o6flTQ5RS`X]e4i1
+R3
 !s105 DE1_SoC_QSYS_color_selector_v_unit
 S1
 R0
-R38
+Z44 w1719276016
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_color_selector.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_color_selector
-vDE1_SoC_QSYS_dds_increment
+vDE1_SoC_QSYS_cpu
 R1
-R37
+R41
 !i10b 1
-!s100 @]2_3O5=25zR>O9i329KE2
-IU6Q^ZSKP0B;0l^9;zZL7?1
-R2
-!s105 DE1_SoC_QSYS_dds_increment_v_unit
+!s100 ;j8X:c0zToCVKkW6?U<R<0
+I50f8zIgmE=gPX[@?Cn_lN3
+R3
+!s105 DE1_SoC_QSYS_cpu_v_unit
 S1
 R0
-Z41 w1718856760
-8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v
-FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v
-R18
-R4
+R44
+8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v
+FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v
+L0 9
+R5
 r1
 !s85 0
 31
-R39
+R42
+!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v|
+!s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_cpu.v|
+!i113 1
+R7
+R8
+R9
+n@d@e1_@so@c_@q@s@y@s_cpu
+vDE1_SoC_QSYS_dds_increment
+R1
+R41
+!i10b 1
+!s100 @]2_3O5=25zR>O9i329KE2
+IU6Q^ZSKP0B;0l^9;zZL7?1
+R3
+!s105 DE1_SoC_QSYS_dds_increment_v_unit
+S1
+R0
+R44
+8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v
+FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v
+R18
+R5
+r1
+!s85 0
+31
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_dds_increment.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_dds_increment
 vDE1_SoC_QSYS_div_freq
 R1
@@ -1303,15 +1329,15 @@ R1
 !i10b 1
 !s100 N;?IQH::2G4`CMT1Oe^d41
 IQTL0K?84YD9n;@hQ^?cfK3
-R2
+R3
 !s105 DE1_SoC_QSYS_div_freq_v_unit
 S1
 R0
-Z42 w1718735271
+w1718735271
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_div_freq.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_div_freq.v
 R18
-R4
+R5
 r1
 !s85 0
 31
@@ -1319,9 +1345,9 @@ r1
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_div_freq.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_div_freq.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_div_freq
 vDE1_SoC_QSYS_irq_mapper
 R1
@@ -1329,275 +1355,275 @@ R20
 !i10b 1
 !s100 GXz`VC@zZzZH3[17>zF580
 IM9P59302mj8YmTlS85I>g0
-R2
+R3
 !s105 DE1_SoC_QSYS_irq_mapper_sv_unit
 S1
 R0
-R24
+R25
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv
 L0 31
-R4
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_irq_mapper.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_irq_mapper
 vDE1_SoC_QSYS_jtag_uart
 R1
-R37
+R2
 !i10b 1
 !s100 SF;PDB0KOf`Z1aPX8EHgK3
 IU6SJ[B[ihXXOe5=k4bH=k0
-R2
-Z43 !s105 DE1_SoC_QSYS_jtag_uart_v_unit
+R3
+Z45 !s105 DE1_SoC_QSYS_jtag_uart_v_unit
 S1
 R0
-R41
-Z44 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v
-Z45 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v
+R44
+Z46 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v
+Z47 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v
 L0 331
-R4
+R5
 r1
 !s85 0
 31
-R39
-Z46 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v|
-Z47 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v|
-!i113 1
-R5
 R6
+Z48 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v|
+Z49 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_jtag_uart.v|
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_jtag_uart
 vDE1_SoC_QSYS_jtag_uart_scfifo_r
 R1
-R37
+R2
 !i10b 1
 !s100 O77XAM32FCHHIYG3OQFOR3
 I2mf16:ljBUQT<32dd:fiA3
-R2
-R43
+R3
+R45
 S1
 R0
-R41
 R44
-R45
+R46
+R47
 L0 243
-R4
+R5
 r1
 !s85 0
 31
-R39
-R46
-R47
-!i113 1
-R5
 R6
+R48
+R49
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_jtag_uart_scfifo_r
 vDE1_SoC_QSYS_jtag_uart_scfifo_w
 R1
-R37
+R2
 !i10b 1
 !s100 DozSj:Bl?GnT2M9E@US?80
 IT4ddE=@_ReLd`Lh>Pani12
-R2
-R43
+R3
+R45
 S1
 R0
-R41
 R44
-R45
+R46
+R47
 L0 78
-R4
+R5
 r1
 !s85 0
 31
-R39
-R46
-R47
-!i113 1
-R5
 R6
+R48
+R49
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_jtag_uart_scfifo_w
 vDE1_SoC_QSYS_jtag_uart_sim_scfifo_r
 R1
-R37
+R2
 !i10b 1
 !s100 oFVmMF3M4]3B24ebR4QY^2
 I@eVe`PFModILT17QWb1Tm3
-R2
-R43
+R3
+R45
 S1
 R0
-R41
 R44
-R45
+R46
+R47
 L0 164
-R4
+R5
 r1
 !s85 0
 31
-R39
-R46
-R47
-!i113 1
-R5
 R6
+R48
+R49
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_jtag_uart_sim_scfifo_r
 vDE1_SoC_QSYS_jtag_uart_sim_scfifo_w
 R1
-R37
+R2
 !i10b 1
 !s100 LW1a9K=>;ck[S<4kDLaS?1
 IFo77EOT>QYAMZNNKb7T0@0
-R2
-R43
+R3
+R45
 S1
 R0
-R41
 R44
-R45
+R46
+R47
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
-R46
-R47
-!i113 1
-R5
 R6
+R48
+R49
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_jtag_uart_sim_scfifo_w
 vDE1_SoC_QSYS_key
 R1
-R37
+R2
 !i10b 1
 !s100 ]d:V8AgVLD=;6akMNiNjV3
 IbI6=icXm>QX:]ZQ>j>cZS1
-R2
+R3
 !s105 DE1_SoC_QSYS_key_v_unit
 S1
 R0
-R41
+Z50 w1719276017
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R39
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_key.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_key
 vDE1_SoC_QSYS_keyboard_keys
 R1
-R37
+R2
 !i10b 1
 !s100 a1zZJo=]RRdjEGRlBODVT3
 I[Te??J5K6B_HHKZ@^Ld8^0
-R2
+R3
 !s105 DE1_SoC_QSYS_keyboard_keys_v_unit
 S1
 R0
-R41
+R50
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_keyboard_keys.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_keyboard_keys
 vDE1_SoC_QSYS_lfsr_clk_interrupt_gen
 R1
-R8
+R2
 !i10b 1
 !s100 hS4ih14DHf`;f;Q0GWMn<1
 Ik>HV6>05F?T9j^HSc1HDX3
-R2
+R3
 !s105 DE1_SoC_QSYS_lfsr_clk_interrupt_gen_v_unit
 S1
 R0
-Z48 w1718856761
+R50
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_clk_interrupt_gen.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_lfsr_clk_interrupt_gen
 vDE1_SoC_QSYS_lfsr_val
 R1
-R8
+R2
 !i10b 1
 !s100 B;Xo4A^XEDXNbV9GiX]kQ0
 I;2=AHBKYLU9^R2Z:nE^XB0
-R2
+R3
 !s105 DE1_SoC_QSYS_lfsr_val_v_unit
 S1
 R0
-R48
+R50
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_lfsr_val.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_lfsr_val
 vDE1_SoC_QSYS_mm_interconnect_0
 R1
 R15
 !i10b 1
-!s100 ?NdcPOYUl2CdX90D=W>0J1
-I[1OzQZjY3e0jMCDA8]L>g2
-R2
+!s100 HJDBaH7Yn7i@bI]58^L0G1
+I7joJEG[R_eg`V;^PhDGUM0
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_v_unit
 S1
 R0
-R24
+R25
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0.v
 L0 9
-R4
+R5
 r1
 !s85 0
 31
@@ -1605,9 +1631,9 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0
 vDE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter
 R1
@@ -1615,15 +1641,15 @@ R15
 !i10b 1
 !s100 e;E@A@;BdUGkaCYDlm:ZS2
 I5Db]dTE?lkfz^bXJYkGL:3
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_v_unit
 S1
 R0
-R14
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter.v
 L0 9
-R4
+R5
 r1
 !s85 0
 31
@@ -1631,9 +1657,9 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_avalon_st_adapter
 vDE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010
 R1
@@ -1641,15 +1667,15 @@ R15
 !i10b 1
 !s100 @7j8?IbPgO=WAkfU7IB;E2
 I9Ed96fTkL[7@VWHTSOjIl2
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_v_unit
 S1
 R0
-Z49 w1718856789
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010.v
 L0 9
-R4
+R5
 r1
 !s85 0
 31
@@ -1657,9 +1683,9 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_avalon_st_adapter_010
 vDE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0
 R1
@@ -1667,25 +1693,25 @@ R20
 !i10b 1
 !s100 3`P=h3oQaa7L2SeMi2L?U1
 IRe7<[Undo<:5@OnW?2b8b3
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0_sv_unit
 S1
 R0
-R49
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv
-Z50 L0 66
-R4
+Z51 L0 66
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_avalon_st_adapter_010_error_adapter_0
 vDE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 R1
@@ -1693,415 +1719,493 @@ R20
 !i10b 1
 !s100 ofGX5VMI:dKg1L=QBiF570
 I_C2?_[YXiH<n2Vj=f7]YR1
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
 S1
 R0
-R49
+R21
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
-R50
-R4
+R51
+R5
 r1
 !s85 0
 31
-R22
+R23
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 vDE1_SoC_QSYS_mm_interconnect_0_cmd_demux
 R1
-R17
+R26
 !i10b 1
 !s100 R27Ghd63:9ScK_GWhRO?21
 IKb>OW_Fd<[;zj>ImV^HV<0
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv
-Z51 L0 43
-R4
+Z52 L0 43
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_demux
 vDE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001
 R1
-R17
+R26
 !i10b 1
 !s100 TO81MDG2D9AzHPcJQHWY:0
 ISE<l`DS1JRMM9Pd^>gjl>2
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_001.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_demux_001
 vDE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002
 R1
-R17
+R26
 !i10b 1
 !s100 HIn1Clo9WccgR7iA[X?D60
 I;j5AVI_BhB31kheA>HJ4j0
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_demux_002.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_demux_002
 vDE1_SoC_QSYS_mm_interconnect_0_cmd_mux
 R1
-R17
+R26
 !i10b 1
 !s100 5NI;7W39bKQJ6lW=B6AlE0
 I^I^QQTLKK<o`]Knl0@A[h2
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv
-Z52 L0 51
-R4
+Z53 L0 51
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_mux
-vDE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006
+vDE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003
 R1
-R17
+R26
 !i10b 1
-!s100 701bL2XB[LV_ic0:^Kakh3
-IFUGY4FFdJ^h0]e[<2?fVb2
-R2
-!s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006_sv_unit
+!s100 ``9o5Yg8;65M@f?Ma_lFa0
+IE`ob6:]1MhUXn8GASJcT31
+R3
+!s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003_sv_unit
 S1
 R0
 R14
-8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv
-FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv
-R52
-R4
+8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003.sv
+FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003.sv
+R53
+R5
 r1
 !s85 0
 31
-R19
+R30
+!s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003.sv|
+!s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_003.sv|
+!i113 1
+R7
+R8
+R9
+n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_mux_003
+vDE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006
+R1
+Z54 !s110 1718894530
+!i10b 1
+!s100 701bL2XB[LV_ic0:^Kakh3
+IFUGY4FFdJ^h0]e[<2?fVb2
+R3
+!s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006_sv_unit
+S1
+R0
+Z55 w1718856788
+8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv
+FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv
+R53
+R5
+r1
+!s85 0
+31
+Z56 !s108 1718894530.000000
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_006.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_mux_006
 vDE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010
 R1
-R17
+R26
 !i10b 1
 !s100 7SZ7QKf`G:9nelI@iTD6<1
 Ig[eadklooc;jE4dZPNTJj3
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv
-R52
-R4
+R53
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_cmd_mux_010.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_cmd_mux_010
 vDE1_SoC_QSYS_mm_interconnect_0_router
 R1
-R10
+R17
 !i10b 1
-!s100 ]0[558KD>Nno^<2i@T9SP0
-Ih2eSiB2kIY0n`LL1GVJE42
-R2
-Z53 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_sv_unit
+!s100 7RBX=[;MlS:5CXR@mh^<]3
+I8TlKHl3BA0a`K]O43BJ=Q1
+R3
+Z57 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_sv_unit
 S1
 R0
 R14
-Z54 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv
-Z55 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv
-Z56 L0 84
-R4
+Z58 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv
+Z59 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv
+Z60 L0 84
+R5
 r1
 !s85 0
 31
-R11
-Z57 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv|
-Z58 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv|
+R19
+Z61 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv|
+Z62 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router
 vDE1_SoC_QSYS_mm_interconnect_0_router_001
 R1
-R10
+R17
 !i10b 1
 !s100 :]aC5`RQ5Y`EWFY3l=c^S2
 Ie^Sa8bTOgMZe:`Ec9[LO<0
-R2
-Z59 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_001_sv_unit
+R3
+Z63 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_001_sv_unit
 S1
 R0
 R14
-Z60 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv
-Z61 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv
-R56
-R4
+Z64 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv
+Z65 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv
+R60
+R5
 r1
 !s85 0
 31
-R11
-Z62 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv|
-Z63 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv|
+R19
+Z66 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv|
+Z67 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_001.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_001
 vDE1_SoC_QSYS_mm_interconnect_0_router_001_default_decode
 R1
-R10
+R17
 !i10b 1
 !s100 ZBlLN<Cg^0@Ui7N@BX;Vj2
 IfgezbAMPWF=F<RI1GVoV41
-R2
-R59
+R3
+R63
 S1
 R0
 R14
-R60
-R61
-Z64 L0 45
-R4
+R64
+R65
+Z68 L0 45
+R5
 r1
 !s85 0
 31
-R11
-R62
-R63
+R19
+R66
+R67
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_001_default_decode
 vDE1_SoC_QSYS_mm_interconnect_0_router_002
 R1
-R10
+R17
 !i10b 1
 !s100 4daD?CXbIVR<EnjkR`kdB1
 ISR^c<=g>LH_IHB885Dc[k3
-R2
-Z65 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_002_sv_unit
+R3
+Z69 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_002_sv_unit
 S1
 R0
 R14
-Z66 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv
-Z67 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv
-R56
-R4
+Z70 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv
+Z71 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv
+R60
+R5
 r1
 !s85 0
 31
-R11
-Z68 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv|
-Z69 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv|
+R19
+Z72 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv|
+Z73 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_002.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_002
 vDE1_SoC_QSYS_mm_interconnect_0_router_002_default_decode
 R1
-R10
+R17
 !i10b 1
 !s100 Igc<g>Q7JMbXMeacJ@:VM2
 IgKSNkK8oK9ABYi?:cW:GM2
-R2
-R65
+R3
+R69
 S1
 R0
 R14
-R66
-R67
-R64
-R4
+R70
+R71
+R68
+R5
 r1
 !s85 0
 31
-R11
-R68
-R69
+R19
+R72
+R73
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_002_default_decode
 vDE1_SoC_QSYS_mm_interconnect_0_router_003
 R1
-R10
+R17
 !i10b 1
 !s100 [Y3Wi0?B=0>R92dK<Q2Qj3
 IOX;W=;i?]WJn<lz^e7SRJ1
-R2
-Z70 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_003_sv_unit
+R3
+Z74 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_003_sv_unit
 S1
 R0
 R14
-Z71 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv
-Z72 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv
-R56
-R4
+Z75 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv
+Z76 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv
+R60
+R5
 r1
 !s85 0
 31
 R19
-Z73 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv|
-Z74 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv|
+Z77 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv|
+Z78 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_003.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_003
 vDE1_SoC_QSYS_mm_interconnect_0_router_003_default_decode
 R1
-R10
+R17
 !i10b 1
 !s100 QJSfPc]h>i;j4;mg[?=k=2
 I<A;22NhF74W9;4k_UkQ9Y3
-R2
-R70
+R3
+R74
 S1
 R0
 R14
-R71
-R72
-R64
-R4
+R75
+R76
+R68
+R5
 r1
 !s85 0
 31
 R19
-R73
-R74
+R77
+R78
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_003_default_decode
-vDE1_SoC_QSYS_mm_interconnect_0_router_009
+vDE1_SoC_QSYS_mm_interconnect_0_router_006
 R1
 R17
+!i10b 1
+!s100 GJ1H:USDMGUY?WadE4>h32
+IVeKUEmZ8l4JX24RJ]fzMk1
+R3
+Z79 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_006_sv_unit
+S1
+R0
+R14
+Z80 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_006.sv
+Z81 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_006.sv
+R60
+R5
+r1
+!s85 0
+31
+R19
+Z82 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_006.sv|
+Z83 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_006.sv|
+!i113 1
+R7
+R8
+R9
+n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_006
+vDE1_SoC_QSYS_mm_interconnect_0_router_006_default_decode
+R1
+R17
+!i10b 1
+!s100 ]LYCO`4M=e;OSIzJ;KRzm0
+I2j`51^_^PB4F]9[o=h<aJ2
+R3
+R79
+S1
+R0
+R14
+R80
+R81
+R68
+R5
+r1
+!s85 0
+31
+R19
+R82
+R83
+!i113 1
+R7
+R8
+R9
+n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_006_default_decode
+vDE1_SoC_QSYS_mm_interconnect_0_router_009
+R1
+R54
 !i10b 1
 !s100 RJR8?ML4E5<Nb]^JR5`n60
 I:B9AU1_OT];Z[<0n8mRkb0
-R2
-Z75 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_009_sv_unit
+R3
+Z84 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_009_sv_unit
 S1
 R0
-R14
-Z76 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv
-Z77 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv
-R56
-R4
+R55
+Z85 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv
+Z86 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv
+R60
+R5
 r1
 !s85 0
 31
-R19
-Z78 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv|
-Z79 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv|
+R56
+Z87 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv|
+Z88 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_009.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_009
 vDE1_SoC_QSYS_mm_interconnect_0_router_009_default_decode
 R1
-R17
+R54
 !i10b 1
 !s100 mhThV;j:PfDXa5gaIfA7W1
 IQ8e<[kIlI^PfRO>EbL6aU3
-R2
-R75
+R3
+R84
 S1
 R0
-R14
-R76
-R77
-R64
-R4
+R55
+R85
+R86
+R68
+R5
 r1
 !s85 0
 31
-R19
-R78
-R79
+R56
+R87
+R88
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_009_default_decode
 vDE1_SoC_QSYS_mm_interconnect_0_router_013
 R1
@@ -2109,25 +2213,25 @@ R17
 !i10b 1
 !s100 j4@:He^3g^V1k17TiA;UU3
 IIG]E@:I7hj<YXP8[_`Enm1
-R2
-Z80 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_013_sv_unit
+R3
+Z89 !s105 DE1_SoC_QSYS_mm_interconnect_0_router_013_sv_unit
 S1
 R0
 R14
-Z81 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv
-Z82 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv
-R56
-R4
+Z90 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv
+Z91 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv
+R60
+R5
 r1
 !s85 0
 31
 R19
-Z83 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv|
-Z84 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv|
+Z92 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv|
+Z93 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_router_013.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_013
 vDE1_SoC_QSYS_mm_interconnect_0_router_013_default_decode
 R1
@@ -2135,441 +2239,441 @@ R17
 !i10b 1
 !s100 BS_U9dnSdf6CVjQn@iU5?3
 IlQoL?>2d2aJfce_2`BUVj2
-R2
-R80
+R3
+R89
 S1
 R0
 R14
-R81
-R82
-R64
-R4
+R90
+R91
+R68
+R5
 r1
 !s85 0
 31
 R19
-R83
-R84
+R92
+R93
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_013_default_decode
 vDE1_SoC_QSYS_mm_interconnect_0_router_default_decode
 R1
-R10
+R17
 !i10b 1
 !s100 J5B@:7_k>4QZ5V6MOl>nE3
 I;`kCHY6XMV9WBWNR3aj500
-R2
-R53
+R3
+R57
 S1
 R0
 R14
-R54
-R55
-R64
-R4
+R58
+R59
+R68
+R5
 r1
 !s85 0
 31
-R11
-R57
-R58
+R19
+R61
+R62
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_router_default_decode
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_demux
 R1
-R17
+R26
 !i10b 1
 !s100 FEK6bT2Si[T5OB5gIR1@Z0
 IQ@=OFMKRSP]Z0D@48DVXk0
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_demux
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010
 R1
-R17
+R26
 !i10b 1
 !s100 FSFJXRGITP3^zE?S@L<:g3
 IHn=eQ<8aHK@eVD_<JNQP93
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_010.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_demux_010
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015
 R1
-R17
+R26
 !i10b 1
 !s100 V18mgR><mJgI43mjbBPi^1
 I3lFSXGPO=XDC@PICjbbAm3
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_015.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_demux_015
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016
 R1
-R17
+R26
 !i10b 1
 !s100 iI?;aCK;94d=5lP;>GAKB3
 IUaQ9O7K=HoQLhe4T8SO@B3
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv
-R51
-R4
+R52
+R5
 r1
 !s85 0
 31
-R19
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_demux_016.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_demux_016
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_mux
 R1
-R17
+R26
 !i10b 1
 !s100 BhoiE^VETCC^[B2=^zVMV0
 IF?UW8XhRRa;`JCM4kIACN0
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv
-R52
-R4
+R53
+R5
 r1
 !s85 0
 31
-R22
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_mux
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001
 R1
-R20
+R26
 !i10b 1
 !s100 J9h^35T411ejMnEJb7eIz2
 IMLBI^>V;lZTe2BUJF9CbW2
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv
-R52
-R4
+R53
+R5
 r1
 !s85 0
 31
-R22
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_001.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_mux_001
 vDE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002
 R1
-R20
+R26
 !i10b 1
 !s100 K88`B33I07]1BSZ@RN0500
 Iimif1649A4]Y7bgdJ3j2m2
-R2
+R3
 !s105 DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002_sv_unit
 S1
 R0
 R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv
-R52
-R4
+R53
+R5
 r1
 !s85 0
 31
-R22
+R30
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mm_interconnect_0_rsp_mux_002.sv|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mm_interconnect_0_rsp_mux_002
 vDE1_SoC_QSYS_modulation_selector
 R1
-R8
+R41
 !i10b 1
 !s100 k4>YaA]X7n]cO]6TkWBWS3
 IeAOV1Z>iLSVZ8FPX5az@U1
-R2
+R3
 !s105 DE1_SoC_QSYS_modulation_selector_v_unit
 S1
 R0
-R48
+w1719271775
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R42
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_modulation_selector.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_modulation_selector
 vDE1_SoC_QSYS_mouse_pos
 R1
-R8
+R2
 !i10b 1
 !s100 <NbC@5H7]oLj0V7LoHgd`0
 IjljFP`So^5=JU:WG>[X3E0
-R2
+R3
 !s105 DE1_SoC_QSYS_mouse_pos_v_unit
 S1
 R0
-R48
+R50
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_mouse_pos.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_mouse_pos
 vDE1_SoC_QSYS_pll
 R1
-R8
+R2
 !i10b 1
 !s100 lQSbfUgo:AYUmUh?cjVKY3
 ID3O;L;<[OkgS7o1QP?aR93
-R2
+R3
 !s105 DE1_SoC_QSYS_pll_v_unit
 S1
 R0
-R48
+R50
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v
 L0 2
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_pll.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_pll
 vDE1_SoC_QSYS_sdram
 R1
-R8
+R2
 !i10b 1
 !s100 ^HG_fTZ24XDBVf1UE>k0D2
 I^`R8BfF^g1SUngnBEg7>b2
-R2
-Z85 !s105 DE1_SoC_QSYS_sdram_v_unit
+R3
+Z94 !s105 DE1_SoC_QSYS_sdram_v_unit
 S1
 R0
-R48
-Z86 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v
-Z87 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v
+Z95 w1719276018
+Z96 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v
+Z97 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v
 L0 159
-R4
+R5
 r1
 !s85 0
 31
-R9
-Z88 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v|
-Z89 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v|
-!i113 1
-R5
 R6
+Z98 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v|
+Z99 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sdram.v|
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_sdram
 vDE1_SoC_QSYS_sdram_input_efifo_module
 R1
-R8
+R2
 !i10b 1
 !s100 oeILbLcGhM2H96=47XgOm0
 Ia02FkP;9?@R3IB@M?l7>H3
-R2
-R85
+R3
+R94
 S1
 R0
-R48
-R86
-R87
+R95
+R96
+R97
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
-R88
-R89
-!i113 1
-R5
 R6
+R98
+R99
+!i113 1
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_sdram_input_efifo_module
 vDE1_SoC_QSYS_signal_selector
 R1
-!s110 1718814751
-!i10b 1
-!s100 Pj7[GMdX08emT9bbNRzJN3
-IV@TJ5>kF6RQ>Pz9o?]=4Q0
 R2
+!i10b 1
+!s100 0Oh[=Nk?IfXnmDjIHl7lH0
+IP19NjK=H[K^I??eg3_Y1a3
+R3
 !s105 DE1_SoC_QSYS_signal_selector_v_unit
 S1
 R0
-R42
+R95
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_signal_selector.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_signal_selector.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-!s108 1718814751.000000
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_signal_selector.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_signal_selector.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_signal_selector
 vDE1_SoC_QSYS_sysid_qsys
 R1
-R8
-!i10b 1
-!s100 8l`b6UGEX2KMPlz_leTB[1
-IEn3zRKjSRZ1igABG=8`[]0
 R2
+!i10b 1
+!s100 f3A_h:;XQoz<NELGhX?g[3
+IMIGGTJjJfe7R``zzcC=TJ0
+R3
 !s105 DE1_SoC_QSYS_sysid_qsys_v_unit
 S1
 R0
-R48
+R95
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v
-R36
-R4
+R39
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_sysid_qsys.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_sysid_qsys
 vDE1_SoC_QSYS_timer
 R1
-R8
+R2
 !i10b 1
 !s100 c=]lLkFZY4Eh;BJK5hniH1
 IHX3UB_R?1W7RTC]l:MVXV0
-R2
+R3
 !s105 DE1_SoC_QSYS_timer_v_unit
 S1
 R0
-Z90 w1718856762
+R95
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v
 R18
-R4
+R5
 r1
 !s85 0
 31
-R9
+R6
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_timer.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_timer
 vDE1_SoC_QSYS_vga
 R1
@@ -2577,15 +2681,15 @@ R15
 !i10b 1
 !s100 @JRCW0J^ni^j:1RU1iGl22
 I_GcC:[PISKEa:3T`mL2ZP1
-R2
+R3
 !s105 DE1_SoC_QSYS_vga_v_unit
 S1
 R0
-R90
+w1719276019
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga.v
 L0 6
-R4
+R5
 r1
 !s85 0
 31
@@ -2593,9 +2697,9 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_vga
 vDE1_SoC_QSYS_vga_vga_clk
 R1
@@ -2603,7 +2707,7 @@ R15
 !i10b 1
 !s100 XzeAH<@Id?4>f1`bGjm2=1
 IRNT=9AE]G>nDZ[>z;NZ]e2
-R2
+R3
 !s105 DE1_SoC_QSYS_vga_vga_clk_v_unit
 S1
 R0
@@ -2611,7 +2715,7 @@ R14
 8C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga_vga_clk.v
 FC:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga_vga_clk.v
 L0 2
-R4
+R5
 r1
 !s85 0
 31
@@ -2619,7 +2723,7 @@ R16
 !s107 C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga_vga_clk.v|
 !s90 -reportprogress|300|-sv|-work|DE1_SoC_QSYS|+incdir+C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules|C:/Users/eldad/OneDrive/Desktop/CPEN311/LAB5/Nios_Qsys/rtl/DE1_SoC_QSYS/synthesis/submodules/DE1_SoC_QSYS_vga_vga_clk.v|
 !i113 1
-R5
-R6
 R7
+R8
+R9
 n@d@e1_@so@c_@q@s@y@s_vga_vga_clk

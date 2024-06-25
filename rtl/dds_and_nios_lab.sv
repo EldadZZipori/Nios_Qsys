@@ -323,10 +323,10 @@ DE1_SoC_QSYS U0(
        
 		 
 		 /* ADDED QSYS*/
-		 .lfsr_clk_interrupt_gen_external_connection_export(Clock_1Hz),
-		 .lfsr_val_external_connection_export	 				(lfsr_counter),
-		 .dds_increment_external_connection_export			(dds_increment),
-		 .color_selector_export										(color_selector)
+		 .lfsr_clk_interrupt_gen_export(Clock_1Hz),
+		 .lfsr_val_export	 				(lfsr_counter),
+		 .dds_increment_export			(dds_increment),
+		 .color_selector_export			(color_selector)
 	);
 	
  
@@ -432,7 +432,14 @@ slow_to_fast lfsr_to_modulator(
 	.async_data	(lfsr_counter[0]),
 	.sync_data	(modulator)
 );
+slow_to_fast lfsr6_to_modulator(
+	.slow_clk	(Clock_1Hz),
+	.fast_clk	(CLOCK_50),
+	.async_data	(s_lfsr_counter[0]),
+	.sync_data	(modulator_2)
+);
 
+logic modulator_2;
 /*
 	Part 3 
 	ASK and BPSK modulation
@@ -546,7 +553,7 @@ logic [11:0] sin_qpsk;
 QPSK_modulator qpsk_modulator_inst(
 	.clk			(CLOCK_50),
 	.reset		(1'b0),
-	.IQ			({lfsr_counter[0],s_lfsr_counter[0]}),
+	.IQ			({modulator,modulator_2}),
 	
 	.sin_qpsk	(sin_qpsk)
 );

@@ -87,11 +87,14 @@ extern struct gimp_image_struct stop_up;
 extern struct gimp_image_struct forward;
 extern struct gimp_image_struct back;
 
+extern unsigned char song[];
+extern unsigned int size_song;
+
 extern unsigned char song1[];
 extern unsigned int size_song1;
 
 extern unsigned char song2[];
-extern unsigned int size_song2
+extern unsigned int size_song2;
 ;
 // VARIABLES GLOBALES DE BOTONES
 unsigned char buttons_control1[12];
@@ -112,8 +115,9 @@ unsigned char stop_song = 0;
 unsigned char next_song = 0;
 unsigned char prev_song = 0;
 
-unsigned char current_song = 0;
-unsigned char active_song_size;
+unsigned char* current_song = song;
+unsigned int active_song_size;
+unsigned int active_song_num = 0;
 
 
 
@@ -174,7 +178,7 @@ void init_background() { // INIT BACKGROUND
 
 /*Read song from EPCS, and send it to the FIFO*/
 #define MAX_ADDRESS 524287
-#define NUMERO_DE_MUESTRAS 1000 // mini buffervoid send_audio_fifo(unsigned char *buf) {int i;for (i = 0; i < NUMERO_DE_MUESTRAS; i++) {while (audio_dac_fifo_full() == 1);audio_dac_wr_fifo( buf[i % active_song_size]);
+#define NUMERO_DE_MUESTRAS 1000 // mini buffervoid send_audio_fifo(unsigned char *buf, unsigned int this_sign_song) {int i;for (i = 0; i < NUMERO_DE_MUESTRAS; i++) {while (audio_dac_fifo_full() == 1);audio_dac_wr_fifo( buf[i % this_sign_song]);
 }
 
 }
@@ -184,59 +188,104 @@ int freq_reader = FREQ_READER_NOMINAL;
 /* Prints "Hello World" and sleeps for three seconds */
 void task1(void* pdata) // ANIMATION BY SOFTWARE TASK
 {
+if (active_song_size != size_song && active_song_size != size_song1 && active_song_size != size_song2) active_song_size = size_song;
 int address_counter = 0;
 set_audio_frequency_audio_controller(freq_reader);
 while (1) {
 
 if (play_song == 1) {
+	switch (active_song_num){
+	case 0:
+		send_audio_fifo(&song[address_counter % size_song], size_song);
+		if (address_counter < size_song) {
+			address_counter += NUMERO_DE_MUESTRAS;
 
-	switch (current_song) {
-		case 0:
-			 active_song_size = size_song1;
-			send_audio_fifo(&song1[address_counter % size_song1]);
-		break;
-		case 1:
-			 active_song_size = size_song2;
-			send_audio_fifo(&song2[address_counter % size_song2]);
-		break;
+		} else {
+			address_counter = 0;
+		}
+	break;
+	case 1:
+		send_audio_fifo(&song1[address_counter % size_song1], size_song1);
+		if (address_counter < size_song1) {
+			address_counter += NUMERO_DE_MUESTRAS;
 
+		} else {
+			address_counter = 0;
+		}
+	break;
+	case 2:
+		send_audio_fifo(&song2[address_counter % size_song2], size_song2);
+		if (address_counter < size_song2) {
+			address_counter += NUMERO_DE_MUESTRAS;
+
+		} else {
+			address_counter = 0;
+		}
+	break;
 	}
-	if (address_counter < active_song_size) {
-		address_counter += NUMERO_DE_MUESTRAS;
 
-	} else {
-		address_counter = 0;
-	}
 } else if (pause_song == 1) {
 
 } else if (stop_song == 1) {
 	address_counter = 0;
-} else if (next_song == 1) {
-	address_counter = 0;
-	switch (current_song) {
-		case 0:
-			current_song = 1;
-		break;
-		case 1:
-			current_song = 0;
-		break;
-	}
-
-} else if (prev_song == 1) {
-	address_counter = 0;
-	switch (current_song) {
-		case 0:
-			current_song = 1;
-		break;
-		case 1:
-			current_song = 0;
-		break;
-	}
 }
+
+	if (prev_song) {
+		address_counter = 0;
+		prev_song = 0;
+
+		switch(active_song_num) {
+		case 0:
+			active_song_size = size_song2;
+			current_song = song2;
+			active_song_num = 2;
+
+		break;
+		case 1:
+			active_song_size = size_song;
+			current_song = song;
+			active_song_num = 0;
+
+		break;
+		case 2:
+			active_song_size = size_song1;
+			current_song = song1;
+			active_song_num =1;
+
+		break;
+
+		}
+		play_song = 1;
+	} else if (next_song) {
+		address_counter = 0;
+		next_song = 0;
+
+		switch(active_song_num) {
+		case 0:
+			active_song_size = size_song1;
+			current_song = song1;
+			active_song_num = 1;
+		break;
+		case 1:
+			active_song_size = size_song2;
+			current_song = song2;
+			active_song_num = 2;
+
+		break;
+		case 2:
+			active_song_size = size_song;
+			current_song = song;
+			active_song_num = 0;
+		break;
+
+		}
+		play_song = 1;
+	}
 OSTimeDlyHMSM(0, 0, 0, 10);
 }
 
 }
+
 
 /*refresh buttons states, and actions*/
 void task2(void* pdata) {
@@ -415,7 +464,6 @@ if (event == 1) {	//down event
 
 		play_song = 0;
 		pause_song = 1;
-		stop_song = 0;
 		prev_song = 0;
 		next_song = 0;
 	} else if (x_mouse >= 265 && x_mouse <= (265 + back.width)
@@ -490,6 +538,8 @@ OSTimeDlyHMSM(0, 0, 0, 100);
 
 /* The main function creates two task and starts multi-tasking */
 int main(void) {
+	 active_song_size = size_song;
+	 current_song = song;
 //Init video
 init_lfsr_interrupt();
 SW_Frame = VIPFR_Init(VGA_ALT_VIP_VFR_0_BASE, (void *) FR_FRAME_0,
