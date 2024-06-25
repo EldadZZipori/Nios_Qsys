@@ -36,33 +36,33 @@ In this lab we use NIOS and a Direct Digital Synthesis module to display differe
 
 # System level diagram  
 
-![System level diagram](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/system_diagram.png)
+![System level diagram](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/system_diagram.png)
 
 # Simulations
 ### LFSR Simulation
-![ASK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/LFSR_simulation.png)
+![ASK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/LFSR_simulation.png)
 ### ASK Modulator Simulation
-![ASK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/ask_simulation.png)
+![ASK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/ask_simulation.png)
 
 ### BSPK Modulator Simulation
-![BSPK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/bspk_simulation.png)
+![BSPK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/bspk_simulation.png)
 
 
 ### PQSK Modulator Simulation
-![PQSK Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/pqsk_simulation.png)
+![PQSK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/pqsk_simulation.png)
 
 ### Fast Clock to Slow Clock Data Transfer Simulation
-![Fast to Slow Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/fast_to_slow_simulation.png)
+![Fast to Slow Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/fast_to_slow_simulation.png)
 
 ### Slow Clock to Fast Clock Data Transfer Simulation
-![Slow to Fast Simulation](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/slow_to_fast_simulation.png)
+![Slow to Fast Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/slow_to_fast_simulation.png)
 
 # SignalTap (signal analyzer)
 ### Modulated and Selected Waves SignalTap
-![Modulated Selected SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/signal_modulation_selection_signalTap.png)
+![Modulated Selected SignalTap](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/signal_modulation_selection_signalTap.png)
 
 ### PQSK SignalTap
-![PQSK SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/pqsk_singalTap.png)
+![PQSK SignalTap](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/pqsk_singalTap.png)
 
 ### Fast to Slow Data Transfer SignalTap
-![Fast to Slow SignalTap](https://github.com/EldadZZipori/RC4_Breaker/blob/main/doc/fast_to_slow_signalTap.png)
+![Fast to Slow SignalTap](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/fast_to_slow_signalTap.png)
