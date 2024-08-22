@@ -48,7 +48,7 @@ In this lab we use NIOS and a Direct Digital Synthesis module to display differe
 ![BSPK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/bspk_simulation.png)
 
 
-### PQSK Modulator Simulation
+### QPSK Modulator Simulation
 ![PQSK Simulation](https://github.com/EldadZZipori/Nios_Qsys/blob/main/doc/pqsk_simulation.png)
 
 ### Fast Clock to Slow Clock Data Transfer Simulation
